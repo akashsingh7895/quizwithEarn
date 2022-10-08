@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "614927743202",
+    "project_id": "qpaisa",
+    "storage_bucket": "qpaisa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614927743202:android:2d6307ef11682bf9ce46bb",
+        "android_client_info": {
+          "package_name": "com.avs.akashsingh.newapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614927743202-140sf9hc89htvu2om354l3e4b5q5q81j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avs.akashsingh.newapp",
+            "certificate_hash": "27d285aa81b5cbaae5f66db1acd7766f6ac63eb0"
+          }
+        },
+        {
+          "client_id": "614927743202-ev538ntkhgqphevr59jjncaijriq0qni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOHFeiw_GsT1NxH3QqAAYxCQPl7PG821I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614927743202-ev538ntkhgqphevr59jjncaijriq0qni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

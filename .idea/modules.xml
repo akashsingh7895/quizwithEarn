@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NewApp.iml" filepath="$PROJECT_DIR$/.idea/modules/NewApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NewApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NewApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NewApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NewApp.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NewApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NewApp.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NewApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NewApp.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nativetemplates/NewApp.nativetemplates.iml" filepath="$PROJECT_DIR$/.idea/modules/nativetemplates/NewApp.nativetemplates.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nativetemplates/NewApp.nativetemplates.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/nativetemplates/NewApp.nativetemplates.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nativetemplates/NewApp.nativetemplates.main.iml" filepath="$PROJECT_DIR$/.idea/modules/nativetemplates/NewApp.nativetemplates.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nativetemplates/NewApp.nativetemplates.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/nativetemplates/NewApp.nativetemplates.unitTest.iml" />
+    </modules>
+  </component>
+</project>
