@@ -13,7 +13,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec6ddcdf-64be-488f-840f-f78f2d841f09" name="Default Changelist" comment="virsion" />
+    <list default="true" id="ec6ddcdf-64be-488f-840f-f78f2d841f09" name="Default Changelist" comment="version-------&gt; 1">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/avs/akashsingh/newapp/DailyCheckActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/avs/akashsingh/newapp/DailyCheckActivity.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -221,6 +223,14 @@
       <option name="presentableId" value="Default" />
       <updated>1648802333393</updated>
     </task>
+    <task id="LOCAL-00001" summary="version-------&gt; 1">
+      <created>1665248602433</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665248602433</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +246,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="virsion" />
-    <option name="LAST_COMMIT_MESSAGE" value="virsion" />
+    <MESSAGE value="version-------&gt; 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="version-------&gt; 1" />
   </component>
 </project>
