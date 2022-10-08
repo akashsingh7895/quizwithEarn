@@ -167,16 +167,6 @@ public class DailyCheckActivity extends AppCompatActivity implements MaxAdListen
                     });
 
 
-
-
-
-
-
-
-
-
-
-
                 }else {
                     dialog1.setContentView(R.layout.insuffecent_coin_diloag);
                     dialog1.setCancelable(false);
