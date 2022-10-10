@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\zeb\\MyAppCode\\QpaisaQuizApp\\CompleteQuizApp-master\\CompleteQuizApp-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+            "outputFile": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldrtl-v17\\values-ldrtl-v17.xml",
             "map": [
                 {
                     "source": "C:\\Users\\zeb\\.gradle\\caches\\transforms-3\\c1618ae235f30f00fbb398474a4bf8d8\\transformed\\material-1.6.1\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",

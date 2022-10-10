@@ -92,7 +92,6 @@ com/avs/akashsingh/newapp/LeaderBordActivity.java
  com.avs.akashsingh.newapp.LeaderBordActivity
  com.avs.akashsingh.newapp.LeaderBordActivity$1
  com.avs.akashsingh.newapp.LeaderBordActivity$2
- com.avs.akashsingh.newapp.LeaderBordActivity$3
 com/avs/akashsingh/newapp/databinding/LoadingProgressDialogBinding.java
  com.avs.akashsingh.newapp.databinding.LoadingProgressDialogBinding
 com/avs/akashsingh/newapp/databinding/ScratchDiloagBinding.java

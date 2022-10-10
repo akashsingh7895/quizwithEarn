@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\zeb\\MyAppCode\\QpaisaQuizApp\\CompleteQuizApp-master\\CompleteQuizApp-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+            "outputFile": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\zeb\\.gradle\\caches\\transforms-3\\a8cf32c6afdc7e65150bdcaece7a55c5\\transformed\\jetified-play-services-base-18.0.1\\res\\values-b+sr+Latn\\values.xml",

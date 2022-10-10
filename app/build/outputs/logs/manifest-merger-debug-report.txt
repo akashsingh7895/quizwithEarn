@@ -1,14 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
-INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
-INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
-INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
 MERGED from [unity-ads.aar] C:\Users\zeb\.gradle\caches\transforms-3\040bb3223c40862e709756808fa74e34\transformed\jetified-unity-ads\AndroidManifest.xml:2:1-36:12
 MERGED from [androidx.databinding:viewbinding:7.0.2] C:\Users\zeb\.gradle\caches\transforms-3\620e574f95cf7e7e93ac68ed08666fcb\transformed\jetified-viewbinding-7.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.AnupKumarPanwar:ScratchView:1.9] C:\Users\zeb\.gradle\caches\transforms-3\4f27f4d6238e716936b0576a525e1f14\transformed\jetified-ScratchView-1.9\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\zeb\.gradle\caches\transforms-3\c1618ae235f30f00fbb398474a4bf8d8\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
-MERGED from [:nativetemplates] C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\nativetemplates\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-12:12
+MERGED from [:nativetemplates] C:\Users\zeb\MyAppCode\CompleteQuizApp-master\nativetemplates\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\zeb\.gradle\caches\transforms-3\457a8183be404b592d4cf92cb8b951e9\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\zeb\.gradle\caches\transforms-3\36c4af9368396ac7180ac4f1b31cfd03\transformed\appcompat-1.4.2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\zeb\.gradle\caches\transforms-3\1ba7fa3d8fe0af6361d0d25c0ab04c01\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:17:1-73:12
@@ -97,25 +97,25 @@ MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\zeb\.gradle\caches\transform
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\zeb\.gradle\caches\transforms-3\737d9ff2c32889bb2521aaf2bc07e3c5\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\zeb\.gradle\caches\transforms-3\07ee67b71d61179709c3749373524324\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\zeb\.gradle\caches\transforms-3\0a1d8bbf65490fd19828f5eae0391774\transformed\jetified-grpc-android-1.44.1\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
-INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
-INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
 	package
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:3:5-40
-		INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
-		INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
+		INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
-		INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
+		INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [unity-ads.aar] C:\Users\zeb\.gradle\caches\transforms-3\040bb3223c40862e709756808fa74e34\transformed\jetified-unity-ads\AndroidManifest.xml:10:5-67
 MERGED from [unity-ads.aar] C:\Users\zeb\.gradle\caches\transforms-3\040bb3223c40862e709756808fa74e34\transformed\jetified-unity-ads\AndroidManifest.xml:10:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\zeb\.gradle\caches\transforms-3\1ba7fa3d8fe0af6361d0d25c0ab04c01\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:23:5-67
@@ -141,9 +141,9 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\zeb\.gradle\caches\transforms-3\23fd0974f7f319154c911ad1747a69ab\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\zeb\.gradle\caches\transforms-3\23fd0974f7f319154c911ad1747a69ab\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:6:5-79
 MERGED from [unity-ads.aar] C:\Users\zeb\.gradle\caches\transforms-3\040bb3223c40862e709756808fa74e34\transformed\jetified-unity-ads\AndroidManifest.xml:9:5-79
 MERGED from [unity-ads.aar] C:\Users\zeb\.gradle\caches\transforms-3\040bb3223c40862e709756808fa74e34\transformed\jetified-unity-ads\AndroidManifest.xml:9:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\zeb\.gradle\caches\transforms-3\1ba7fa3d8fe0af6361d0d25c0ab04c01\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:24:5-79
@@ -177,15 +177,15 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\
 MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\zeb\.gradle\caches\transforms-3\0a1d8bbf65490fd19828f5eae0391774\transformed\jetified-grpc-android-1.44.1\AndroidManifest.xml:9:5-79
 MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\zeb\.gradle\caches\transforms-3\0a1d8bbf65490fd19828f5eae0391774\transformed\jetified-grpc-android-1.44.1\AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:8:5-78:19
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:8:5-78:19
 MERGED from [unity-ads.aar] C:\Users\zeb\.gradle\caches\transforms-3\040bb3223c40862e709756808fa74e34\transformed\jetified-unity-ads\AndroidManifest.xml:13:5-34:19
 MERGED from [unity-ads.aar] C:\Users\zeb\.gradle\caches\transforms-3\040bb3223c40862e709756808fa74e34\transformed\jetified-unity-ads\AndroidManifest.xml:13:5-34:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\zeb\.gradle\caches\transforms-3\c1618ae235f30f00fbb398474a4bf8d8\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\zeb\.gradle\caches\transforms-3\c1618ae235f30f00fbb398474a4bf8d8\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
-MERGED from [:nativetemplates] C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\nativetemplates\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-10:19
-MERGED from [:nativetemplates] C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\nativetemplates\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-10:19
+MERGED from [:nativetemplates] C:\Users\zeb\MyAppCode\CompleteQuizApp-master\nativetemplates\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-10:19
+MERGED from [:nativetemplates] C:\Users\zeb\MyAppCode\CompleteQuizApp-master\nativetemplates\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-10:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\zeb\.gradle\caches\transforms-3\457a8183be404b592d4cf92cb8b951e9\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\zeb\.gradle\caches\transforms-3\457a8183be404b592d4cf92cb8b951e9\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\zeb\.gradle\caches\transforms-3\1ba7fa3d8fe0af6361d0d25c0ab04c01\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:26:5-71:19
@@ -267,141 +267,141 @@ MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\zeb\.gradle\caches\trans
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\zeb\.gradle\caches\transforms-3\c7220573e40aa30730232dde3fd8eccf\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:15:9-44
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:15:9-44
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:9:9-39
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:9:9-39
 activity#com.avs.akashsingh.newapp.DailyCheckActivity
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:16:9-18:40
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:16:9-18:40
 	android:exported
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:18:13-37
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:17:13-47
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:17:13-47
 activity#com.avs.akashsingh.newapp.ScratchCardActivity
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:19:9-21:40
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:19:9-21:40
 	android:exported
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:21:13-37
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:20:13-48
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:20:13-48
 activity#com.avs.akashsingh.newapp.WatchVideoActivity
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:22:9-24:39
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:22:9-24:39
 	android:exported
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:24:13-36
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:23:13-47
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:23:13-47
 activity#com.avs.akashsingh.newapp.UpdateProfileAcvity
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:25:9-27:39
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:25:9-27:39
 	android:exported
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:27:13-36
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:27:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:26:13-48
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:26:13-48
 activity#com.avs.akashsingh.newapp.ForgotPasswordActivity
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:28:9-30:39
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:28:9-30:39
 	android:exported
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:30:13-36
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:29:13-51
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:29:13-51
 activity#com.avs.akashsingh.newapp.SpinWheelActivity
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:31:9-33:39
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:31:9-33:39
 	android:exported
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:33:13-36
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:32:13-46
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:32:13-46
 activity#com.avs.akashsingh.newapp.SplashActivity
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:34:9-42:20
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:34:9-42:20
 	android:exported
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:36:13-36
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:36:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:35:13-43
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:35:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:37:13-41:29
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:37:13-41:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:38:17-69
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:38:25-66
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:40:17-77
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:40:17-77
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:40:27-74
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:40:27-74
 activity#com.avs.akashsingh.newapp.LeaderBordActivity
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:43:9-45:39
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:43:9-45:39
 	android:exported
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:45:13-36
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:45:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:44:13-47
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:44:13-47
 activity#com.avs.akashsingh.newapp.ProfileActivity
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:46:9-48:39
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:46:9-48:39
 	android:exported
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:48:13-36
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:48:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:47:13-44
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:47:13-44
 activity#com.avs.akashsingh.newapp.ResultActivity
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:49:9-51:39
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:49:9-51:39
 	android:exported
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:51:13-36
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:51:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:50:13-43
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:50:13-43
 activity#com.avs.akashsingh.newapp.QuizActivity
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:52:9-54:39
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:52:9-54:39
 	android:exported
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:54:13-36
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:54:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:53:13-41
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:53:13-41
 activity#com.avs.akashsingh.newapp.MyWalletActivity
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:55:9-57:39
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:55:9-57:39
 	android:exported
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:57:13-36
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:57:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:56:13-45
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:56:13-45
 activity#com.avs.akashsingh.newapp.CategoryActivity
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:58:9-60:39
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:58:9-60:39
 	android:exported
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:60:13-36
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:60:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:59:13-45
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:59:13-45
 activity#com.avs.akashsingh.newapp.LogInActivity
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:61:9-63:39
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:61:9-63:39
 	android:exported
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:63:13-36
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:63:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:62:13-42
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:62:13-42
 activity#com.avs.akashsingh.newapp.SignUpActivity
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:64:9-66:39
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:64:9-66:39
 	android:exported
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:66:13-36
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:66:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:65:13-43
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:65:13-43
 activity#com.avs.akashsingh.newapp.MainActivity
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:67:9-69:39
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:67:9-69:39
 	android:exported
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:69:13-36
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:69:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:68:13-41
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:68:13-41
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:71:9-73:52
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:71:9-73:52
 	android:value
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:73:13-49
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:73:13-49
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:72:13-69
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:72:13-69
 meta-data#applovin.sdk.key
-ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:75:9-76:117
+ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:75:9-76:117
 	android:value
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:76:13-115
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:76:13-115
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:75:20-51
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:75:20-51
 uses-sdk
-INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
 MERGED from [unity-ads.aar] C:\Users\zeb\.gradle\caches\transforms-3\040bb3223c40862e709756808fa74e34\transformed\jetified-unity-ads\AndroidManifest.xml:5:5-7:41
 MERGED from [unity-ads.aar] C:\Users\zeb\.gradle\caches\transforms-3\040bb3223c40862e709756808fa74e34\transformed\jetified-unity-ads\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.databinding:viewbinding:7.0.2] C:\Users\zeb\.gradle\caches\transforms-3\620e574f95cf7e7e93ac68ed08666fcb\transformed\jetified-viewbinding-7.0.2\AndroidManifest.xml:20:5-44
@@ -410,8 +410,8 @@ MERGED from [com.github.AnupKumarPanwar:ScratchView:1.9] C:\Users\zeb\.gradle\ca
 MERGED from [com.github.AnupKumarPanwar:ScratchView:1.9] C:\Users\zeb\.gradle\caches\transforms-3\4f27f4d6238e716936b0576a525e1f14\transformed\jetified-ScratchView-1.9\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\zeb\.gradle\caches\transforms-3\c1618ae235f30f00fbb398474a4bf8d8\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\zeb\.gradle\caches\transforms-3\c1618ae235f30f00fbb398474a4bf8d8\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
-MERGED from [:nativetemplates] C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\nativetemplates\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:nativetemplates] C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\nativetemplates\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:nativetemplates] C:\Users\zeb\MyAppCode\CompleteQuizApp-master\nativetemplates\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:nativetemplates] C:\Users\zeb\MyAppCode\CompleteQuizApp-master\nativetemplates\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\zeb\.gradle\caches\transforms-3\457a8183be404b592d4cf92cb8b951e9\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\zeb\.gradle\caches\transforms-3\457a8183be404b592d4cf92cb8b951e9\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\zeb\.gradle\caches\transforms-3\36c4af9368396ac7180ac4f1b31cfd03\transformed\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
@@ -588,18 +588,18 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\zeb
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\zeb\.gradle\caches\transforms-3\07ee67b71d61179709c3749373524324\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\zeb\.gradle\caches\transforms-3\0a1d8bbf65490fd19828f5eae0391774\transformed\jetified-grpc-android-1.44.1\AndroidManifest.xml:5:5-7:41
 MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\zeb\.gradle\caches\transforms-3\0a1d8bbf65490fd19828f5eae0391774\transformed\jetified-grpc-android-1.44.1\AndroidManifest.xml:5:5-7:41
-INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.google.android.gms:play-services-ads:21.1.0] C:\Users\zeb\.gradle\caches\transforms-3\307bf793a99f44978f29c8c2553466a3\transformed\jetified-play-services-ads-21.1.0\AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
-		INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\zeb\MyAppCode\QpaisaQuizApp\CompleteQuizApp-master\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
 uses-permission#com.google.android.gms.permission.AD_ID
 ADDED from [unity-ads.aar] C:\Users\zeb\.gradle\caches\transforms-3\040bb3223c40862e709756808fa74e34\transformed\jetified-unity-ads\AndroidManifest.xml:11:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\zeb\.gradle\caches\transforms-3\e6f3e324e09020b11d2987de26a76410\transformed\jetified-play-services-measurement-api-21.1.0\AndroidManifest.xml:25:5-79
