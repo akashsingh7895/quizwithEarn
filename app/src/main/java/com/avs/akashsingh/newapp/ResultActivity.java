@@ -10,16 +10,27 @@ import android.os.Handler;
 import android.view.View;
 
 
+import com.applovin.mediation.MaxAd;
+import com.applovin.mediation.MaxAdListener;
+import com.applovin.mediation.MaxError;
+import com.applovin.mediation.ads.MaxInterstitialAd;
+import com.applovin.mediation.nativeAds.MaxNativeAdLoader;
 import com.avs.akashsingh.newapp.databinding.ActivityResultBinding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.unity3d.ads.UnityAds;
 
-public class ResultActivity extends AppCompatActivity {
+public class ResultActivity extends AppCompatActivity implements MaxAdListener {
 
     ActivityResultBinding binding;
     int POINTS = 10;
+
+    //applovin ads
+    private MaxInterstitialAd interstitialAd;
+    private MaxNativeAdLoader nativeAdLoader;
+    private MaxAd nativeAd;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,15 +38,9 @@ public class ResultActivity extends AppCompatActivity {
         binding = ActivityResultBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-//
-//        new Handler().postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
-//                UnityAds.show(ResultActivity.this,InterID);
-//
-//            }
-//        }, 10000);
-
+        interstitialAd = new MaxInterstitialAd(getString(R.string.inter),this);
+        interstitialAd.setListener(this);
+        interstitialAd.loadAd();
 
         int correctAnswers = getIntent().getIntExtra("correct", 0);
         int totalQuestions = getIntent().getIntExtra("total", 0);
@@ -55,22 +60,62 @@ public class ResultActivity extends AppCompatActivity {
         binding.restart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              //  UnityAds.show(ResultActivity.this,InterID);
-                startActivity(new Intent(ResultActivity.this, CategoryActivity.class));
-                finishAffinity();
+             if (interstitialAd.isReady()){
+                 interstitialAd.showAd();
+                 startActivity(new Intent(ResultActivity.this, MainActivity.class));
+                 finishAffinity();
+             }else {
+                 startActivity(new Intent(ResultActivity.this, MainActivity.class));
+                 finishAffinity();
+             }
+
             }
         });
 
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                UnityAds.show(ResultActivity.this,InterID);
-                startActivity(new Intent(ResultActivity.this, CategoryActivity.class));
+                if (interstitialAd.isReady()){
+                    interstitialAd.showAd();
+                    startActivity(new Intent(ResultActivity.this, MainActivity.class));
+                    finishAffinity();
+                }else {
+                    startActivity(new Intent(ResultActivity.this, MainActivity.class));
+                    finishAffinity();
+                }
             }
         });
 
 
+    }
 
+    @Override
+    public void onAdLoaded(MaxAd ad) {
+
+    }
+
+    @Override
+    public void onAdDisplayed(MaxAd ad) {
+
+    }
+
+    @Override
+    public void onAdHidden(MaxAd ad) {
+
+    }
+
+    @Override
+    public void onAdClicked(MaxAd ad) {
+
+    }
+
+    @Override
+    public void onAdLoadFailed(String adUnitId, MaxError error) {
+
+    }
+
+    @Override
+    public void onAdDisplayFailed(MaxAd ad, MaxError error) {
 
     }
 }

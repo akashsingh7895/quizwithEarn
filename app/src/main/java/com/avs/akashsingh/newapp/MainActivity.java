@@ -22,6 +22,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -245,8 +246,14 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
         binding.spinWheel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               // UnityAds.show(MainActivity.this,InterID);
-                startActivity(new Intent(MainActivity.this,SpinWheelActivity.class));
+              if (interstitialAd.isReady()){
+                  interstitialAd.showAd();
+                  startActivity(new Intent(MainActivity.this,SpinWheelActivity.class));
+
+              }else {
+                  startActivity(new Intent(MainActivity.this,SpinWheelActivity.class));
+
+              }
 
             }
         });
@@ -286,6 +293,24 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
 
             }
         });
+
+
+        binding.tg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/+qlt2BCHVmUwyMTVl"));
+                    PackageManager pm = getPackageManager();
+                    if (intent.resolveActivity(pm) != null) {
+                        startActivity(intent);
+                    } else {
+                        Toast.makeText(getApplicationContext(), "Error message", Toast.LENGTH_LONG).show();
+                    }
+                } catch (Exception ignored) {
+                }
+            }
+        });
+
 
         firebaseNotification();
 
@@ -453,11 +478,11 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
                         switch (menuItem.getItemId()) {
 
                             case R.id.myProfile:
-                                         UnityAds.show(MainActivity.this,InterID);
+                                       //  UnityAds.show(MainActivity.this,InterID);
                                          startActivity(new Intent(MainActivity.this,ProfileActivity.class));
                                          break;
                                      case R.id.myWallet:
-                                         UnityAds.show(MainActivity.this,InterID);
+                                        // UnityAds.show(MainActivity.this,InterID);
                                          startActivity(new Intent(MainActivity.this,MyWalletActivity.class));
 
                                          break;

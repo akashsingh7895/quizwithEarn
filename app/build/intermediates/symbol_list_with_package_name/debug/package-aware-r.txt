@@ -2661,6 +2661,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_question
 drawable ic_scratch_pattern
 drawable img
+drawable img_1
 drawable key
 drawable kkk
 drawable logo_q
@@ -2764,7 +2765,6 @@ drawable waving
 drawable wrong
 drawable wrong_option
 id ALT
-id Adds
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
@@ -2772,7 +2772,6 @@ id CategoryRv
 id FUNCTION
 id META
 id NO_DEBUG
-id Qureka
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -3242,7 +3241,6 @@ id progressbaer
 id question
 id questionCounter
 id quiz
-id qureka
 id radio
 id rank
 id rateThisApp
@@ -3393,6 +3391,7 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id texttool
+id tg
 id time
 id timer
 id title

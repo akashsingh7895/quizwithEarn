@@ -28,12 +28,6 @@ public final class ActivityMainBinding implements ViewBinding {
   private final DrawerLayout rootView;
 
   @NonNull
-  public final TextView Adds;
-
-  @NonNull
-  public final CardView Qureka;
-
-  @NonNull
   public final LinearLayout adView;
 
   @NonNull
@@ -91,9 +85,6 @@ public final class ActivityMainBinding implements ViewBinding {
   public final NavigationView navigationView;
 
   @NonNull
-  public final ImageView qureka;
-
-  @NonNull
   public final RelativeLayout rel;
 
   @NonNull
@@ -121,24 +112,25 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView textView4;
 
   @NonNull
+  public final LinearLayout tg;
+
+  @NonNull
   public final Toolbar toolbar;
 
-  private ActivityMainBinding(@NonNull DrawerLayout rootView, @NonNull TextView Adds,
-      @NonNull CardView Qureka, @NonNull LinearLayout adView, @NonNull CardView allcategories,
-      @NonNull CardView dailyCheckIn, @NonNull DrawerLayout drawerLayout,
-      @NonNull TextView helloReaders, @NonNull TextView helloReaders1, @NonNull ImageView imageView,
-      @NonNull ImageView imageView1, @NonNull ImageView imageView14,
-      @NonNull CircleImageView imageView15, @NonNull ImageView imageView2,
-      @NonNull ImageView imageView4, @NonNull LinearLayout ll1, @NonNull LinearLayout ll2,
-      @NonNull LinearLayout ll3, @NonNull CardView myProfile, @NonNull CardView myWallet,
-      @NonNull FrameLayout nativeAdLayout, @NonNull NavigationView navigationView,
-      @NonNull ImageView qureka, @NonNull RelativeLayout rel, @NonNull CardView scratchCard,
-      @NonNull CardView spinWheel, @NonNull TextView textView, @NonNull TextView textView1,
-      @NonNull TextView textView14, @NonNull TextView textView15, @NonNull TextView textView2,
-      @NonNull TextView textView4, @NonNull Toolbar toolbar) {
+  private ActivityMainBinding(@NonNull DrawerLayout rootView, @NonNull LinearLayout adView,
+      @NonNull CardView allcategories, @NonNull CardView dailyCheckIn,
+      @NonNull DrawerLayout drawerLayout, @NonNull TextView helloReaders,
+      @NonNull TextView helloReaders1, @NonNull ImageView imageView, @NonNull ImageView imageView1,
+      @NonNull ImageView imageView14, @NonNull CircleImageView imageView15,
+      @NonNull ImageView imageView2, @NonNull ImageView imageView4, @NonNull LinearLayout ll1,
+      @NonNull LinearLayout ll2, @NonNull LinearLayout ll3, @NonNull CardView myProfile,
+      @NonNull CardView myWallet, @NonNull FrameLayout nativeAdLayout,
+      @NonNull NavigationView navigationView, @NonNull RelativeLayout rel,
+      @NonNull CardView scratchCard, @NonNull CardView spinWheel, @NonNull TextView textView,
+      @NonNull TextView textView1, @NonNull TextView textView14, @NonNull TextView textView15,
+      @NonNull TextView textView2, @NonNull TextView textView4, @NonNull LinearLayout tg,
+      @NonNull Toolbar toolbar) {
     this.rootView = rootView;
-    this.Adds = Adds;
-    this.Qureka = Qureka;
     this.adView = adView;
     this.allcategories = allcategories;
     this.dailyCheckIn = dailyCheckIn;
@@ -158,7 +150,6 @@ public final class ActivityMainBinding implements ViewBinding {
     this.myWallet = myWallet;
     this.nativeAdLayout = nativeAdLayout;
     this.navigationView = navigationView;
-    this.qureka = qureka;
     this.rel = rel;
     this.scratchCard = scratchCard;
     this.spinWheel = spinWheel;
@@ -168,6 +159,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.textView15 = textView15;
     this.textView2 = textView2;
     this.textView4 = textView4;
+    this.tg = tg;
     this.toolbar = toolbar;
   }
 
@@ -198,18 +190,6 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.Adds;
-      TextView Adds = ViewBindings.findChildViewById(rootView, id);
-      if (Adds == null) {
-        break missingId;
-      }
-
-      id = R.id.Qureka;
-      CardView Qureka = ViewBindings.findChildViewById(rootView, id);
-      if (Qureka == null) {
-        break missingId;
-      }
-
       id = R.id.adView;
       LinearLayout adView = ViewBindings.findChildViewById(rootView, id);
       if (adView == null) {
@@ -320,12 +300,6 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.qureka;
-      ImageView qureka = ViewBindings.findChildViewById(rootView, id);
-      if (qureka == null) {
-        break missingId;
-      }
-
       id = R.id.rel;
       RelativeLayout rel = ViewBindings.findChildViewById(rootView, id);
       if (rel == null) {
@@ -380,17 +354,23 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tg;
+      LinearLayout tg = ViewBindings.findChildViewById(rootView, id);
+      if (tg == null) {
+        break missingId;
+      }
+
       id = R.id.toolbar;
       Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
       if (toolbar == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((DrawerLayout) rootView, Adds, Qureka, adView, allcategories,
-          dailyCheckIn, drawerLayout, helloReaders, helloReaders1, imageView, imageView1,
-          imageView14, imageView15, imageView2, imageView4, ll1, ll2, ll3, myProfile, myWallet,
-          nativeAdLayout, navigationView, qureka, rel, scratchCard, spinWheel, textView, textView1,
-          textView14, textView15, textView2, textView4, toolbar);
+      return new ActivityMainBinding((DrawerLayout) rootView, adView, allcategories, dailyCheckIn,
+          drawerLayout, helloReaders, helloReaders1, imageView, imageView1, imageView14,
+          imageView15, imageView2, imageView4, ll1, ll2, ll3, myProfile, myWallet, nativeAdLayout,
+          navigationView, rel, scratchCard, spinWheel, textView, textView1, textView14, textView15,
+          textView2, textView4, tg, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

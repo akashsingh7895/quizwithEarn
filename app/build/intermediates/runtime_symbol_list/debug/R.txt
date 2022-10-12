@@ -2660,6 +2660,7 @@ int drawable ic_mtrl_chip_close_circle 0x7f0700d0
 int drawable ic_question 0x7f0700d1
 int drawable ic_scratch_pattern 0x7f0700d2
 int drawable img 0x7f0700d3
+int drawable img_1 0x7f07013a
 int drawable key 0x7f0700d4
 int drawable kkk 0x7f0700d5
 int drawable logo_q 0x7f0700d6
@@ -2763,7 +2764,6 @@ int drawable waving 0x7f070137
 int drawable wrong 0x7f070138
 int drawable wrong_option 0x7f070139
 int id ALT 0x7f080000
-int id Adds 0x7f080001
 int id BOTTOM_END 0x7f080002
 int id BOTTOM_START 0x7f080003
 int id CTRL 0x7f080004
@@ -2771,7 +2771,6 @@ int id CategoryRv 0x7f080005
 int id FUNCTION 0x7f080006
 int id META 0x7f080007
 int id NO_DEBUG 0x7f080008
-int id Qureka 0x7f080009
 int id SHIFT 0x7f08000a
 int id SHOW_ALL 0x7f08000b
 int id SHOW_PATH 0x7f08000c
@@ -3241,7 +3240,6 @@ int id progressbaer 0x7f0801db
 int id question 0x7f0801dc
 int id questionCounter 0x7f0801dd
 int id quiz 0x7f0801de
-int id qureka 0x7f0801df
 int id radio 0x7f0801e0
 int id rank 0x7f0801e1
 int id rateThisApp 0x7f0801e2
@@ -3392,6 +3390,7 @@ int id textinput_placeholder 0x7f080272
 int id textinput_prefix_text 0x7f080273
 int id textinput_suffix_text 0x7f080274
 int id texttool 0x7f080275
+int id tg 0x7f0802b9
 int id time 0x7f080276
 int id timer 0x7f080277
 int id title 0x7f080278

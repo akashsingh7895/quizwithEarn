@@ -114,9 +114,16 @@ public class SpinWheelActivity extends AppCompatActivity implements MaxAdListene
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent  = new Intent(SpinWheelActivity.this,MainActivity.class);
-                startActivity(intent);
-                finish();
+                if (interstitialAd.isReady()){
+                    interstitialAd.showAd();
+                    Intent intent  = new Intent(SpinWheelActivity.this,MainActivity.class);
+                    startActivity(intent);
+                    finish();
+                }else {
+                    Intent intent  = new Intent(SpinWheelActivity.this,MainActivity.class);
+                    startActivity(intent);
+                    finish();
+                }
             }
         });
 
@@ -256,9 +263,17 @@ public class SpinWheelActivity extends AppCompatActivity implements MaxAdListene
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent intent  = new Intent(SpinWheelActivity.this,MainActivity.class);
-        startActivity(intent);
-        finish();
+        if (interstitialAd.isReady()){
+            interstitialAd.showAd();
+            Intent intent  = new Intent(SpinWheelActivity.this,MainActivity.class);
+            startActivity(intent);
+            finish();
+        }else {
+            Intent intent  = new Intent(SpinWheelActivity.this,MainActivity.class);
+            startActivity(intent);
+            finish();
+        }
+
     }
 
 

@@ -16,12 +16,12 @@
         "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\layout\\scratch_diloag.xml"
     },
     {
-        "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_quiz.xml",
-        "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\layout\\activity_quiz.xml"
-    },
-    {
         "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\progress_diloag.xml",
         "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\layout\\progress_diloag.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_quiz.xml",
+        "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\layout\\activity_quiz.xml"
     },
     {
         "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_leader_bord.xml",
