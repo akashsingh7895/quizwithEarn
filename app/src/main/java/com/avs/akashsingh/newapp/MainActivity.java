@@ -82,8 +82,7 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
     long coins;
     String name;
     public static Dialog loadingDialog;
-//    InterstitialAd mInterstitialAd;
-//    private AdView mAdView;
+
 
     String date,currentDate,todayDate;
     //spinweel
@@ -307,6 +306,7 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
                         Toast.makeText(getApplicationContext(), "Error message", Toast.LENGTH_LONG).show();
                     }
                 } catch (Exception ignored) {
+                    Toast.makeText(MainActivity.this, ""+ignored, Toast.LENGTH_SHORT).show();
                 }
             }
         });

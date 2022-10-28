@@ -1,3 +1,30 @@
+com/avs/akashsingh/newapp/ForgotPasswordActivity.java
+ com.avs.akashsingh.newapp.ForgotPasswordActivity
+ com.avs.akashsingh.newapp.ForgotPasswordActivity$1
+ com.avs.akashsingh.newapp.ForgotPasswordActivity$1$1
+ com.avs.akashsingh.newapp.ForgotPasswordActivity$2
+com/avs/akashsingh/newapp/Model/CategoryModel.java
+ com.avs.akashsingh.newapp.Model.CategoryModel
+com/avs/akashsingh/newapp/Model/User.java
+ com.avs.akashsingh.newapp.Model.User
+com/avs/akashsingh/newapp/BuildConfig.java
+ com.avs.akashsingh.newapp.BuildConfig
+com/avs/akashsingh/newapp/ProfileActivity.java
+ com.avs.akashsingh.newapp.ProfileActivity
+ com.avs.akashsingh.newapp.ProfileActivity$1
+ com.avs.akashsingh.newapp.ProfileActivity$2
+ com.avs.akashsingh.newapp.ProfileActivity$3
+com/avs/akashsingh/newapp/Model/WithdrawRequest.java
+ com.avs.akashsingh.newapp.Model.WithdrawRequest
+com/avs/akashsingh/newapp/Model/appClass.java
+ com.avs.akashsingh.newapp.Model.appClass
+ com.avs.akashsingh.newapp.Model.appClass$1
+com/avs/akashsingh/newapp/Model/Question.java
+ com.avs.akashsingh.newapp.Model.Question
+com/avs/akashsingh/newapp/LeaderBordActivity.java
+ com.avs.akashsingh.newapp.LeaderBordActivity
+ com.avs.akashsingh.newapp.LeaderBordActivity$1
+ com.avs.akashsingh.newapp.LeaderBordActivity$2
 com/avs/akashsingh/newapp/databinding/ActivitySpinWheelBinding.java
  com.avs.akashsingh.newapp.databinding.ActivitySpinWheelBinding
 com/avs/akashsingh/newapp/databinding/ActivitySplashBinding.java
@@ -11,26 +38,42 @@ com/avs/akashsingh/newapp/ScratchCardActivity.java
  com.avs.akashsingh.newapp.ScratchCardActivity$2
  com.avs.akashsingh.newapp.ScratchCardActivity$3
  com.avs.akashsingh.newapp.ScratchCardActivity$4
-com/avs/akashsingh/newapp/BuildConfig.java
- com.avs.akashsingh.newapp.BuildConfig
 com/avs/akashsingh/newapp/LogInActivity.java
  com.avs.akashsingh.newapp.LogInActivity
  com.avs.akashsingh.newapp.LogInActivity$1
  com.avs.akashsingh.newapp.LogInActivity$1$1
  com.avs.akashsingh.newapp.LogInActivity$2
  com.avs.akashsingh.newapp.LogInActivity$3
+com/avs/akashsingh/newapp/databinding/LoadingProgressDialogBinding.java
+ com.avs.akashsingh.newapp.databinding.LoadingProgressDialogBinding
+com/avs/akashsingh/newapp/databinding/ScratchDiloagBinding.java
+ com.avs.akashsingh.newapp.databinding.ScratchDiloagBinding
+com/avs/akashsingh/newapp/databinding/HeaderBinding.java
+ com.avs.akashsingh.newapp.databinding.HeaderBinding
 com/avs/akashsingh/newapp/databinding/ActivityUpdateProfileAcvityBinding.java
  com.avs.akashsingh.newapp.databinding.ActivityUpdateProfileAcvityBinding
 com/avs/akashsingh/newapp/ResultActivity.java
  com.avs.akashsingh.newapp.ResultActivity
  com.avs.akashsingh.newapp.ResultActivity$1
  com.avs.akashsingh.newapp.ResultActivity$2
+com/avs/akashsingh/newapp/MyWalletActivity.java
+ com.avs.akashsingh.newapp.MyWalletActivity
+ com.avs.akashsingh.newapp.MyWalletActivity$1
+ com.avs.akashsingh.newapp.MyWalletActivity$2
+ com.avs.akashsingh.newapp.MyWalletActivity$3
+ com.avs.akashsingh.newapp.MyWalletActivity$3$1
+ com.avs.akashsingh.newapp.MyWalletActivity$3$1$1
 com/avs/akashsingh/newapp/WatchVideoActivity.java
  com.avs.akashsingh.newapp.WatchVideoActivity
  com.avs.akashsingh.newapp.WatchVideoActivity$1
  com.avs.akashsingh.newapp.WatchVideoActivity$2
  com.avs.akashsingh.newapp.WatchVideoActivity$3
  com.avs.akashsingh.newapp.WatchVideoActivity$4
+com/avs/akashsingh/newapp/CategoryActivity.java
+ com.avs.akashsingh.newapp.CategoryActivity
+ com.avs.akashsingh.newapp.CategoryActivity$1
+ com.avs.akashsingh.newapp.CategoryActivity$2
+ com.avs.akashsingh.newapp.CategoryActivity$3
 com/avs/akashsingh/newapp/UpdateProfileAcvity.java
  com.avs.akashsingh.newapp.UpdateProfileAcvity
  com.avs.akashsingh.newapp.UpdateProfileAcvity$1
@@ -55,77 +98,12 @@ com/avs/akashsingh/newapp/databinding/InsuffecentCoinDiloagBinding.java
  com.avs.akashsingh.newapp.databinding.InsuffecentCoinDiloagBinding
 com/avs/akashsingh/newapp/Model/MyFirebaseMessagingService.java
  com.avs.akashsingh.newapp.Model.MyFirebaseMessagingService
+com/avs/akashsingh/newapp/databinding/ActivityLogInBinding.java
+ com.avs.akashsingh.newapp.databinding.ActivityLogInBinding
 com/avs/akashsingh/newapp/SplashActivity.java
  com.avs.akashsingh.newapp.SplashActivity
  com.avs.akashsingh.newapp.SplashActivity$1
  com.avs.akashsingh.newapp.SplashActivity$2
-com/avs/akashsingh/newapp/databinding/ActivityForgotPasswordBinding.java
- com.avs.akashsingh.newapp.databinding.ActivityForgotPasswordBinding
-com/avs/akashsingh/newapp/DailyCheckActivity.java
- com.avs.akashsingh.newapp.DailyCheckActivity
- com.avs.akashsingh.newapp.DailyCheckActivity$1
- com.avs.akashsingh.newapp.DailyCheckActivity$1$1
- com.avs.akashsingh.newapp.DailyCheckActivity$1$1$1
- com.avs.akashsingh.newapp.DailyCheckActivity$1$1$2
- com.avs.akashsingh.newapp.DailyCheckActivity$1$2
- com.avs.akashsingh.newapp.DailyCheckActivity$2
-com/avs/akashsingh/newapp/databinding/ActivityLeaderBordBinding.java
- com.avs.akashsingh.newapp.databinding.ActivityLeaderBordBinding
-com/avs/akashsingh/newapp/databinding/RequestSendDiloagBinding.java
- com.avs.akashsingh.newapp.databinding.RequestSendDiloagBinding
-com/avs/akashsingh/newapp/databinding/NoInternetDialogBinding.java
- com.avs.akashsingh.newapp.databinding.NoInternetDialogBinding
-com/avs/akashsingh/newapp/databinding/ActivityWatchVideoBinding.java
- com.avs.akashsingh.newapp.databinding.ActivityWatchVideoBinding
-com/avs/akashsingh/newapp/Model/LeaderBordAdapter.java
- com.avs.akashsingh.newapp.Model.LeaderBordAdapter
- com.avs.akashsingh.newapp.Model.LeaderBordAdapter$ViewHolder
-com/avs/akashsingh/newapp/databinding/CoinsSuccessLayoutBinding.java
- com.avs.akashsingh.newapp.databinding.CoinsSuccessLayoutBinding
-com/avs/akashsingh/newapp/databinding/ActivityCategoryBinding.java
- com.avs.akashsingh.newapp.databinding.ActivityCategoryBinding
-com/avs/akashsingh/newapp/Model/CategoryAdapter.java
- com.avs.akashsingh.newapp.Model.CategoryAdapter
- com.avs.akashsingh.newapp.Model.CategoryAdapter$1
- com.avs.akashsingh.newapp.Model.CategoryAdapter$CategoryViewHolder
-com/avs/akashsingh/newapp/LeaderBordActivity.java
- com.avs.akashsingh.newapp.LeaderBordActivity
- com.avs.akashsingh.newapp.LeaderBordActivity$1
- com.avs.akashsingh.newapp.LeaderBordActivity$2
-com/avs/akashsingh/newapp/databinding/LoadingProgressDialogBinding.java
- com.avs.akashsingh.newapp.databinding.LoadingProgressDialogBinding
-com/avs/akashsingh/newapp/databinding/ScratchDiloagBinding.java
- com.avs.akashsingh.newapp.databinding.ScratchDiloagBinding
-com/avs/akashsingh/newapp/databinding/HeaderBinding.java
- com.avs.akashsingh.newapp.databinding.HeaderBinding
-com/avs/akashsingh/newapp/MyWalletActivity.java
- com.avs.akashsingh.newapp.MyWalletActivity
- com.avs.akashsingh.newapp.MyWalletActivity$1
- com.avs.akashsingh.newapp.MyWalletActivity$2
- com.avs.akashsingh.newapp.MyWalletActivity$3
- com.avs.akashsingh.newapp.MyWalletActivity$3$1
- com.avs.akashsingh.newapp.MyWalletActivity$3$1$1
-com/avs/akashsingh/newapp/Model/Question.java
- com.avs.akashsingh.newapp.Model.Question
-com/avs/akashsingh/newapp/ProfileActivity.java
- com.avs.akashsingh.newapp.ProfileActivity
- com.avs.akashsingh.newapp.ProfileActivity$1
- com.avs.akashsingh.newapp.ProfileActivity$2
- com.avs.akashsingh.newapp.ProfileActivity$3
-com/avs/akashsingh/newapp/CategoryActivity.java
- com.avs.akashsingh.newapp.CategoryActivity
- com.avs.akashsingh.newapp.CategoryActivity$1
- com.avs.akashsingh.newapp.CategoryActivity$2
- com.avs.akashsingh.newapp.CategoryActivity$3
-com/avs/akashsingh/newapp/ForgotPasswordActivity.java
- com.avs.akashsingh.newapp.ForgotPasswordActivity
- com.avs.akashsingh.newapp.ForgotPasswordActivity$1
- com.avs.akashsingh.newapp.ForgotPasswordActivity$1$1
- com.avs.akashsingh.newapp.ForgotPasswordActivity$2
-com/avs/akashsingh/newapp/Model/CategoryModel.java
- com.avs.akashsingh.newapp.Model.CategoryModel
-com/avs/akashsingh/newapp/databinding/ActivityLogInBinding.java
- com.avs.akashsingh.newapp.databinding.ActivityLogInBinding
 com/avs/akashsingh/newapp/databinding/ActivityQuizBinding.java
  com.avs.akashsingh.newapp.databinding.ActivityQuizBinding
 com/avs/akashsingh/newapp/QuizActivity.java
@@ -139,19 +117,24 @@ com/avs/akashsingh/newapp/databinding/CategoryItemBinding.java
  com.avs.akashsingh.newapp.databinding.CategoryItemBinding
 com/avs/akashsingh/newapp/databinding/ActivityMyWalletBinding.java
  com.avs.akashsingh.newapp.databinding.ActivityMyWalletBinding
+com/avs/akashsingh/newapp/databinding/ActivityForgotPasswordBinding.java
+ com.avs.akashsingh.newapp.databinding.ActivityForgotPasswordBinding
 com/avs/akashsingh/newapp/databinding/ProgressDiloagBinding.java
  com.avs.akashsingh.newapp.databinding.ProgressDiloagBinding
-com/avs/akashsingh/newapp/Model/appClass.java
- com.avs.akashsingh.newapp.Model.appClass
- com.avs.akashsingh.newapp.Model.appClass$1
+com/avs/akashsingh/newapp/DailyCheckActivity.java
+ com.avs.akashsingh.newapp.DailyCheckActivity
+ com.avs.akashsingh.newapp.DailyCheckActivity$1
+ com.avs.akashsingh.newapp.DailyCheckActivity$1$1
+ com.avs.akashsingh.newapp.DailyCheckActivity$1$1$1
+ com.avs.akashsingh.newapp.DailyCheckActivity$1$1$2
+ com.avs.akashsingh.newapp.DailyCheckActivity$1$2
+ com.avs.akashsingh.newapp.DailyCheckActivity$2
 com/avs/akashsingh/newapp/databinding/InfcumentCoinsDiolagBinding.java
  com.avs.akashsingh.newapp.databinding.InfcumentCoinsDiolagBinding
 com/avs/akashsingh/newapp/databinding/ActivityResultBinding.java
  com.avs.akashsingh.newapp.databinding.ActivityResultBinding
 com/avs/akashsingh/newapp/databinding/ActivityDailyCheckBinding.java
  com.avs.akashsingh.newapp.databinding.ActivityDailyCheckBinding
-com/avs/akashsingh/newapp/Model/WithdrawRequest.java
- com.avs.akashsingh.newapp.Model.WithdrawRequest
 com/avs/akashsingh/newapp/databinding/ActivityMainBinding.java
  com.avs.akashsingh.newapp.databinding.ActivityMainBinding
 com/avs/akashsingh/newapp/MainActivity.java
@@ -162,7 +145,8 @@ com/avs/akashsingh/newapp/MainActivity.java
  com.avs.akashsingh.newapp.MainActivity$12
  com.avs.akashsingh.newapp.MainActivity$13
  com.avs.akashsingh.newapp.MainActivity$14
- com.avs.akashsingh.newapp.MainActivity$14$1
+ com.avs.akashsingh.newapp.MainActivity$15
+ com.avs.akashsingh.newapp.MainActivity$15$1
  com.avs.akashsingh.newapp.MainActivity$2
  com.avs.akashsingh.newapp.MainActivity$3
  com.avs.akashsingh.newapp.MainActivity$4
@@ -171,12 +155,23 @@ com/avs/akashsingh/newapp/MainActivity.java
  com.avs.akashsingh.newapp.MainActivity$7
  com.avs.akashsingh.newapp.MainActivity$8
  com.avs.akashsingh.newapp.MainActivity$9
-com/avs/akashsingh/newapp/Model/User.java
- com.avs.akashsingh.newapp.Model.User
 com/avs/akashsingh/newapp/databinding/ActivityProfileBinding.java
  com.avs.akashsingh.newapp.databinding.ActivityProfileBinding
+com/avs/akashsingh/newapp/databinding/ActivityLeaderBordBinding.java
+ com.avs.akashsingh.newapp.databinding.ActivityLeaderBordBinding
+com/avs/akashsingh/newapp/databinding/RequestSendDiloagBinding.java
+ com.avs.akashsingh.newapp.databinding.RequestSendDiloagBinding
+com/avs/akashsingh/newapp/databinding/NoInternetDialogBinding.java
+ com.avs.akashsingh.newapp.databinding.NoInternetDialogBinding
+com/avs/akashsingh/newapp/databinding/ActivityWatchVideoBinding.java
+ com.avs.akashsingh.newapp.databinding.ActivityWatchVideoBinding
 com/avs/akashsingh/newapp/databinding/RowLearbordBinding.java
  com.avs.akashsingh.newapp.databinding.RowLearbordBinding
+com/avs/akashsingh/newapp/Model/LeaderBordAdapter.java
+ com.avs.akashsingh.newapp.Model.LeaderBordAdapter
+ com.avs.akashsingh.newapp.Model.LeaderBordAdapter$ViewHolder
+com/avs/akashsingh/newapp/databinding/CoinsSuccessLayoutBinding.java
+ com.avs.akashsingh.newapp.databinding.CoinsSuccessLayoutBinding
 com/avs/akashsingh/newapp/SignUpActivity.java
  com.avs.akashsingh.newapp.SignUpActivity
  com.avs.akashsingh.newapp.SignUpActivity$1
@@ -188,3 +183,9 @@ com/avs/akashsingh/newapp/SignUpActivity.java
  com.avs.akashsingh.newapp.SignUpActivity$6$1
  com.avs.akashsingh.newapp.SignUpActivity$6$1$1
  com.avs.akashsingh.newapp.SignUpActivity$7
+com/avs/akashsingh/newapp/databinding/ActivityCategoryBinding.java
+ com.avs.akashsingh.newapp.databinding.ActivityCategoryBinding
+com/avs/akashsingh/newapp/Model/CategoryAdapter.java
+ com.avs.akashsingh.newapp.Model.CategoryAdapter
+ com.avs.akashsingh.newapp.Model.CategoryAdapter$1
+ com.avs.akashsingh.newapp.Model.CategoryAdapter$CategoryViewHolder
