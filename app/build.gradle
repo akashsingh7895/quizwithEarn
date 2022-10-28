@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.avs.akashsingh.newapp"
+        applicationId "com.avssolution.akashsingh.quizearnxyz"
         minSdk 21
         targetSdk 31
         versionCode 9
