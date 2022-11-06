@@ -1,4 +1,4 @@
-com.avs.akashsingh.newapp
+com.avssolution.akashsingh.quizearnxyz
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -2925,6 +2925,7 @@ id clockwise
 id closest
 id cnf_new_password
 id coins
+id coinsTotal
 id coins_coins
 id collapseActionView
 id compress
@@ -3017,11 +3018,16 @@ id fragment_container_view_tag
 id frost
 id fullNameEt
 id fullscreen_header
+id g1
+id g2
+id g3
+id g4
 id ghost_view
 id ghost_view_holder
 id glide_custom_view_target_tag
 id goBackTv
 id gone
+id gpay
 id graph
 id graph_wrap
 id group1
@@ -3214,6 +3220,7 @@ id options_view
 id outline
 id outward
 id overshoot
+id pPay
 id packed
 id parallax
 id parent
@@ -3224,6 +3231,8 @@ id passwordEt
 id password_toggle
 id path
 id pathRelative
+id paypal
+id paytm
 id peekHeight
 id percent
 id phone
@@ -3242,6 +3251,7 @@ id question
 id questionCounter
 id quiz
 id radio
+id radioGroup
 id rank
 id rateThisApp
 id rating_bar
@@ -3874,6 +3884,7 @@ string privacy_policy
 string project_id
 string qureka
 string qureka_desc
+string reward
 string reward_video_ad1
 string reward_video_ad2
 string reward_video_ad3

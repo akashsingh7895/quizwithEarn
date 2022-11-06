@@ -101,7 +101,7 @@ INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\Android
 INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
 INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:2:1-80:12
 	package
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:3:5-40
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:3:5-53
 		INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -279,49 +279,49 @@ MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\zeb\.gradle\caches\trans
 	android:theme
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:15:9-44
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:9:9-39
-activity#com.avs.akashsingh.newapp.DailyCheckActivity
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:9:9-77
+activity#com.avssolution.akashsingh.quizearnxyz.DailyCheckActivity
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:16:9-18:40
 	android:exported
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:17:13-47
-activity#com.avs.akashsingh.newapp.ScratchCardActivity
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:17:13-85
+activity#com.avssolution.akashsingh.quizearnxyz.ScratchCardActivity
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:19:9-21:40
 	android:exported
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:20:13-48
-activity#com.avs.akashsingh.newapp.WatchVideoActivity
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:20:13-86
+activity#com.avssolution.akashsingh.quizearnxyz.WatchVideoActivity
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:22:9-24:39
 	android:exported
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:23:13-47
-activity#com.avs.akashsingh.newapp.UpdateProfileAcvity
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:23:13-85
+activity#com.avssolution.akashsingh.quizearnxyz.UpdateProfileAcvity
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:25:9-27:39
 	android:exported
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:27:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:26:13-48
-activity#com.avs.akashsingh.newapp.ForgotPasswordActivity
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:26:13-86
+activity#com.avssolution.akashsingh.quizearnxyz.ForgotPasswordActivity
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:28:9-30:39
 	android:exported
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:29:13-51
-activity#com.avs.akashsingh.newapp.SpinWheelActivity
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:29:13-89
+activity#com.avssolution.akashsingh.quizearnxyz.SpinWheelActivity
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:31:9-33:39
 	android:exported
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:32:13-46
-activity#com.avs.akashsingh.newapp.SplashActivity
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:32:13-84
+activity#com.avssolution.akashsingh.quizearnxyz.SplashActivity
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:34:9-42:20
 	android:exported
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:36:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:35:13-43
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:35:13-81
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:37:13-41:29
 action#android.intent.action.MAIN
@@ -332,60 +332,60 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:40:17-77
 	android:name
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:40:27-74
-activity#com.avs.akashsingh.newapp.LeaderBordActivity
+activity#com.avssolution.akashsingh.quizearnxyz.LeaderBordActivity
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:43:9-45:39
 	android:exported
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:45:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:44:13-47
-activity#com.avs.akashsingh.newapp.ProfileActivity
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:44:13-85
+activity#com.avssolution.akashsingh.quizearnxyz.ProfileActivity
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:46:9-48:39
 	android:exported
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:48:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:47:13-44
-activity#com.avs.akashsingh.newapp.ResultActivity
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:47:13-82
+activity#com.avssolution.akashsingh.quizearnxyz.ResultActivity
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:49:9-51:39
 	android:exported
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:51:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:50:13-43
-activity#com.avs.akashsingh.newapp.QuizActivity
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:50:13-81
+activity#com.avssolution.akashsingh.quizearnxyz.QuizActivity
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:52:9-54:39
 	android:exported
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:54:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:53:13-41
-activity#com.avs.akashsingh.newapp.MyWalletActivity
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:53:13-79
+activity#com.avssolution.akashsingh.quizearnxyz.MyWalletActivity
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:55:9-57:39
 	android:exported
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:57:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:56:13-45
-activity#com.avs.akashsingh.newapp.CategoryActivity
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:56:13-83
+activity#com.avssolution.akashsingh.quizearnxyz.CategoryActivity
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:58:9-60:39
 	android:exported
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:60:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:59:13-45
-activity#com.avs.akashsingh.newapp.LogInActivity
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:59:13-83
+activity#com.avssolution.akashsingh.quizearnxyz.LogInActivity
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:61:9-63:39
 	android:exported
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:63:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:62:13-42
-activity#com.avs.akashsingh.newapp.SignUpActivity
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:62:13-80
+activity#com.avssolution.akashsingh.quizearnxyz.SignUpActivity
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:64:9-66:39
 	android:exported
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:66:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:65:13-43
-activity#com.avs.akashsingh.newapp.MainActivity
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:65:13-81
+activity#com.avssolution.akashsingh.quizearnxyz.MainActivity
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:67:9-69:39
 	android:exported
 		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:69:13-36
 	android:name
-		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:68:13-41
+		ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:68:13-79
 meta-data#com.google.android.gms.ads.APPLICATION_ID
 ADDED from C:\Users\zeb\MyAppCode\CompleteQuizApp-master\app\src\main\AndroidManifest.xml:71:9-73:52
 	android:value

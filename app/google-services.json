@@ -41,6 +41,43 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614927743202:android:4698fa2d7c0b8931ce46bb",
+        "android_client_info": {
+          "package_name": "com.avssolution.akashsingh.quizearnxyz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614927743202-5de2lh9mr9lmip647c83imvgo8s9n19i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avssolution.akashsingh.quizearnxyz",
+            "certificate_hash": "f0a91ce31c00a659336b73a924f1e60262e5df38"
+          }
+        },
+        {
+          "client_id": "614927743202-ev538ntkhgqphevr59jjncaijriq0qni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOHFeiw_GsT1NxH3QqAAYxCQPl7PG821I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614927743202-ev538ntkhgqphevr59jjncaijriq0qni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

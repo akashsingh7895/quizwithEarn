@@ -3,7 +3,7 @@
     <string name="default_web_client_id" translatable="false">614927743202-ev538ntkhgqphevr59jjncaijriq0qni.apps.googleusercontent.com</string>
     <string name="gcm_defaultSenderId" translatable="false">614927743202</string>
     <string name="google_api_key" translatable="false">AIzaSyAOHFeiw_GsT1NxH3QqAAYxCQPl7PG821I</string>
-    <string name="google_app_id" translatable="false">1:614927743202:android:2d6307ef11682bf9ce46bb</string>
+    <string name="google_app_id" translatable="false">1:614927743202:android:4698fa2d7c0b8931ce46bb</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAOHFeiw_GsT1NxH3QqAAYxCQPl7PG821I</string>
     <string name="google_storage_bucket" translatable="false">qpaisa.appspot.com</string>
     <string name="project_id" translatable="false">qpaisa</string>

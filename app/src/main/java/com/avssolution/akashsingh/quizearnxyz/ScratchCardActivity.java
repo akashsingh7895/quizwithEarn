@@ -20,7 +20,10 @@ import com.anupkumarpanwar.scratchview.ScratchView;
 import com.applovin.mediation.MaxAd;
 import com.applovin.mediation.MaxAdListener;
 import com.applovin.mediation.MaxError;
+import com.applovin.mediation.MaxReward;
+import com.applovin.mediation.MaxRewardedAdListener;
 import com.applovin.mediation.ads.MaxInterstitialAd;
+import com.applovin.mediation.ads.MaxRewardedAd;
 import com.applovin.mediation.nativeAds.MaxNativeAdListener;
 import com.applovin.mediation.nativeAds.MaxNativeAdLoader;
 import com.applovin.mediation.nativeAds.MaxNativeAdView;
@@ -36,7 +39,7 @@ import java.util.Calendar;
 import java.util.Objects;
 import java.util.Random;
 
-public class ScratchCardActivity extends AppCompatActivity implements MaxAdListener {
+public class ScratchCardActivity extends AppCompatActivity implements MaxAdListener, MaxRewardedAdListener {
 
     ActivityScratchCardBinding binding;
 
@@ -61,6 +64,8 @@ public class ScratchCardActivity extends AppCompatActivity implements MaxAdListe
     private MaxInterstitialAd interstitialAd;
     private MaxNativeAdLoader nativeAdLoader;
     private MaxAd nativeAd;
+    private MaxRewardedAd rewardedAd;
+    private int           retryAttempt;
 
 
 
@@ -77,6 +82,7 @@ public class ScratchCardActivity extends AppCompatActivity implements MaxAdListe
         interstitialAd.setListener(this);
         interstitialAd.loadAd();
         loadnetiveAd();
+        createRewardedAd();
 
         dialog = new Dialog(this);
         dialog1 = new Dialog(this);
@@ -133,23 +139,23 @@ public class ScratchCardActivity extends AppCompatActivity implements MaxAdListe
                     button.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-                            if (interstitialAd.isReady()){
-                                interstitialAd.showAd();
-                                FirebaseFirestore firestore = FirebaseFirestore.getInstance();
-                                firestore.collection("USERS")
-                                        .document(FirebaseAuth.getInstance().getUid())
-                                        .update("coins", FieldValue.increment(randomNumber))
-                                        .addOnCompleteListener(new OnCompleteListener<Void>() {
-                                            @Override
-                                            public void onComplete(@NonNull Task<Void> task) {
-                                                if (task.isSuccessful()){
-                                                    //dialog.show();
-//
-                                                }else {
-                                                    Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
-                                                }
-                                            }
-                                        });
+                            if (rewardedAd.isReady()){
+                                rewardedAd.showAd();
+//                                FirebaseFirestore firestore = FirebaseFirestore.getInstance();
+//                                firestore.collection("USERS")
+//                                        .document(FirebaseAuth.getInstance().getUid())
+//                                        .update("coins", FieldValue.increment(randomNumber))
+//                                        .addOnCompleteListener(new OnCompleteListener<Void>() {
+//                                            @Override
+//                                            public void onComplete(@NonNull Task<Void> task) {
+//                                                if (task.isSuccessful()){
+//                                                    //dialog.show();
+//                                                    Toast.makeText(ScratchCardActivity.this, "Coins Add", Toast.LENGTH_SHORT).show();
+//                                                }else {
+//                                                    Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
+//                                                }
+//                                            }
+//                                        });
                             }else {
                                 FirebaseFirestore firestore = FirebaseFirestore.getInstance();
                                 firestore.collection("USERS")
@@ -218,6 +224,14 @@ public class ScratchCardActivity extends AppCompatActivity implements MaxAdListe
         });
 
     }
+    void createRewardedAd(){
+
+        rewardedAd = MaxRewardedAd.getInstance( getString(R.string.reward), this );
+        rewardedAd.setListener( this );
+
+        rewardedAd.loadAd();
+    }
+
 
     void loadnetiveAd(){
 
@@ -301,6 +315,36 @@ public class ScratchCardActivity extends AppCompatActivity implements MaxAdListe
 
     @Override
     public void onAdDisplayFailed(MaxAd ad, MaxError error) {
+
+    }
+
+    @Override
+    public void onRewardedVideoStarted(MaxAd ad) {
+
+    }
+
+    @Override
+    public void onRewardedVideoCompleted(MaxAd ad) {
+        FirebaseFirestore firestore = FirebaseFirestore.getInstance();
+        firestore.collection("USERS")
+                .document(FirebaseAuth.getInstance().getUid())
+                .update("coins", FieldValue.increment(randomNumber))
+                .addOnCompleteListener(new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        if (task.isSuccessful()){
+                            //dialog.show();
+                            Toast.makeText(ScratchCardActivity.this, "Coins Add", Toast.LENGTH_SHORT).show();
+                        }else {
+                            Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+
+    }
+
+    @Override
+    public void onUserRewarded(MaxAd ad, MaxReward reward) {
 
     }
 }

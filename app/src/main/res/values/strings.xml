@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Qpaisa</string>
+    <string name="app_name">Quiz With Earn</string>
 
     <string name="drawerOpen">open</string>
     <string name="drawerClose">close</string>
@@ -43,5 +43,7 @@
     <!--    Applovin Ads-->
     <string name="inter">beb90c3186a74f8a</string>
     <string name="netive">32ac1df235e06e73</string>
+    <string name="reward">2ba5d911e960559b</string>
+
 
 </resources>

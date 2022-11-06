@@ -74,13 +74,6 @@ public class LogInActivity extends AppCompatActivity {
                             }
                         });
 
-
-
-
-
-
-
-
                     }else {
 
                         binding.emailEt.setError("Please enter password");

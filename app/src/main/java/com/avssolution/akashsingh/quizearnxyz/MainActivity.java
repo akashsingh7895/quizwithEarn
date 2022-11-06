@@ -152,7 +152,7 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
         view.load();
         binding.adView.addView(view);
 
-        binding.toolbar.setTitle("Qpaisa");
+        binding.toolbar.setTitle(getString(R.string.app_name));
         binding.toolbar.setTitleTextColor(getResources().getColor(R.color.white));
 
 //
@@ -183,14 +183,16 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
             @Override
             public void onClick(View v) {
               //  UnityAds.show(MainActivity.this,InterID);
-                if (interstitialAd.isReady()){
-                    interstitialAd.showAd();
-                    startActivity(new Intent(MainActivity.this,CategoryActivity.class));
+//                if (interstitialAd.isReady()){
+//                    interstitialAd.showAd();
+//
+//
+//                }else {
+//                    startActivity(new Intent(MainActivity.this,CategoryActivity.class));
+//
+//                }
 
-                }else {
-                    startActivity(new Intent(MainActivity.this,CategoryActivity.class));
-
-                }
+                startActivity(new Intent(MainActivity.this,CategoryActivity.class));
 
             }
         });
@@ -199,14 +201,16 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
             @Override
             public void onClick(View v) {
               //  UnityAds.show(MainActivity.this,InterID);
-                if (interstitialAd.isReady()){
-                    interstitialAd.showAd();
-                    Intent intent = new Intent(MainActivity.this,MyWalletActivity.class);
-                    startActivity(intent);
-                }else {
-                    Intent intent = new Intent(MainActivity.this,MyWalletActivity.class);
-                    startActivity(intent);
-                }
+//                if (interstitialAd.isReady()){
+//                    interstitialAd.showAd();
+//
+//                }else {
+//                    Intent intent = new Intent(MainActivity.this,MyWalletActivity.class);
+//                    startActivity(intent);
+//                }
+
+                Intent intent = new Intent(MainActivity.this,MyWalletActivity.class);
+                startActivity(intent);
 
             }
         });
@@ -215,27 +219,30 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
             @Override
             public void onClick(View v) {
               //  UnityAds.show(MainActivity.this,InterID);
-                if (interstitialAd.isReady()){
-                    interstitialAd.showAd();
-                    startActivity(new Intent(MainActivity.this,ProfileActivity.class));
+//                if (interstitialAd.isReady()){
+//                    interstitialAd.showAd();
+//
+//                }else {
+//                    startActivity(new Intent(MainActivity.this,ProfileActivity.class));
+//
+//                }
+                startActivity(new Intent(MainActivity.this,ProfileActivity.class));
 
-                }else {
-                    startActivity(new Intent(MainActivity.this,ProfileActivity.class));
-
-                }
             }
         });
         binding.spinWheel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              if (interstitialAd.isReady()){
-                  interstitialAd.showAd();
-                  startActivity(new Intent(MainActivity.this,SpinWheelActivity.class));
+//              if (interstitialAd.isReady()){
+//                  interstitialAd.showAd();
+//
+//              }else {
+//                  startActivity(new Intent(MainActivity.this,SpinWheelActivity.class));
+//
+//              }
 
-              }else {
-                  startActivity(new Intent(MainActivity.this,SpinWheelActivity.class));
+                startActivity(new Intent(MainActivity.this,SpinWheelActivity.class));
 
-              }
 
             }
         });
@@ -249,14 +256,15 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
         binding.dailyCheckIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (interstitialAd.isReady()){
-                    interstitialAd.showAd();
-                    startActivity(new Intent(MainActivity.this,DailyCheckActivity.class));
+//                if (interstitialAd.isReady()){
+//                    interstitialAd.showAd();
+//
+//                }else {
+//                    startActivity(new Intent(MainActivity.this,DailyCheckActivity.class));
+//
+//                }
+                startActivity(new Intent(MainActivity.this,DailyCheckActivity.class));
 
-                }else {
-                    startActivity(new Intent(MainActivity.this,DailyCheckActivity.class));
-
-                }
             }
         });
 
@@ -264,35 +272,36 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
             @Override
             public void onClick(View v) {
 
-                if (interstitialAd.isReady()){
-                    interstitialAd.showAd();
-                    startActivity(new Intent(MainActivity.this,ScratchCardActivity.class));
+//                if (interstitialAd.isReady()){
+//                    interstitialAd.showAd();
+//
+//                }else {
+//                    startActivity(new Intent(MainActivity.this,ScratchCardActivity.class));
+//
+//                }
+                startActivity(new Intent(MainActivity.this,ScratchCardActivity.class));
 
-                }else {
-                    startActivity(new Intent(MainActivity.this,ScratchCardActivity.class));
-
-                }
 
             }
         });
 
 
-        binding.tg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                try {
-                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/+qlt2BCHVmUwyMTVl"));
-                    PackageManager pm = getPackageManager();
-                    if (intent.resolveActivity(pm) != null) {
-                        startActivity(intent);
-                    } else {
-                        Toast.makeText(getApplicationContext(), "Error message", Toast.LENGTH_LONG).show();
-                    }
-                } catch (Exception ignored) {
-                    Toast.makeText(MainActivity.this, ""+ignored, Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
+//        binding.tg.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                try {
+//                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/+qlt2BCHVmUwyMTVl"));
+//                    PackageManager pm = getPackageManager();
+//                    if (intent.resolveActivity(pm) != null) {
+//                        startActivity(intent);
+//                    } else {
+//                        Toast.makeText(getApplicationContext(), "Error message", Toast.LENGTH_LONG).show();
+//                    }
+//                } catch (Exception ignored) {
+//                    Toast.makeText(MainActivity.this, ""+ignored, Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//        });
 
 
         firebaseNotification();
@@ -383,7 +392,8 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
                       if (task.isSuccessful()){
                           DocumentSnapshot snapshot = task.getResult();
                           name = (String)snapshot.get("name");
-                          //coins = (long) snapshot.get("coins");
+                          coins = (long) snapshot.get("coins");
+                          binding.coinsTotal.setText(String.valueOf("Coins " + coins));
                           binding.helloReaders1.setText(name);
                           loadingDialog.dismiss();
                       }else {

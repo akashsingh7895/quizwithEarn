@@ -70,8 +70,20 @@
                   android:layout_height="100dp"
                   android:layout_alignParentRight="true"
                   android:layout_marginTop="10dp"
-                  android:layout_marginRight="30dp"
+                  android:visibility="gone"
                   android:src="@drawable/waving" />
+
+              <TextView
+                  android:id="@+id/coinsTotal"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="0000"
+                  android:textColor="@color/white"
+                  android:textSize="30dp"
+                  android:layout_marginRight="30dp"
+                  android:layout_alignParentRight="true"
+                  android:layout_marginTop="10dp"
+                  android:textStyle="bold"/>
 
 
           </RelativeLayout>
@@ -470,6 +482,7 @@
                   android:layout_height="80dp"
                   android:layout_below="@id/ll3"
                   android:layout_marginLeft="16dp"
+                  android:visibility="gone"
                   android:layout_marginRight="16dp"
                   android:layout_marginBottom="40dp"
                   android:background="@drawable/video_item_back">

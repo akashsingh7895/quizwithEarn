@@ -10,6 +10,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.widget.CompoundButton;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.applovin.mediation.MaxAd;
@@ -48,6 +51,8 @@ public class MyWalletActivity extends AppCompatActivity implements MaxAdListener
     private MaxAd nativeAd;
 
 
+    String paymentType;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,12 +74,8 @@ public class MyWalletActivity extends AppCompatActivity implements MaxAdListener
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (interstitialAd.isReady()){
-                    interstitialAd.showAd();
-                    finish();
-                }else {
-                    finish();
-                }
+//
+                finish();
 
             }
         });
@@ -119,6 +120,52 @@ public class MyWalletActivity extends AppCompatActivity implements MaxAdListener
 
       //   coins fetch finish
 
+        binding.g1.setChecked(true);
+
+
+
+       binding.radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener()
+        {
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                switch(checkedId){
+                    case R.id.g1:
+                        // do operations specific to this selection
+                        binding.withdrawMob.setHint("Enter G pay Number");
+                        paymentType = "G pay";
+                        Toast.makeText(MyWalletActivity.this, ""+paymentType, Toast.LENGTH_SHORT).show();
+
+                        break;
+                    case R.id.g2:
+                        // do operations specific to this selection
+                        binding.withdrawMob.setHint("Enter Phone pay Number");
+                        paymentType = "Phone pay";
+                        Toast.makeText(MyWalletActivity.this, ""+paymentType, Toast.LENGTH_SHORT).show();
+
+
+
+                        break;
+                    case R.id.g3:
+                        // do operations specific to this selection
+                        binding.withdrawMob.setHint("Enter Paytm Number");
+                        paymentType = "Paytm";
+                        Toast.makeText(MyWalletActivity.this, ""+paymentType, Toast.LENGTH_SHORT).show();
+
+
+
+                        break;
+                    case R.id.g4:
+                        // do operations specific to this selection
+                        binding.withdrawMob.setHint("Enter Paypal Gmail I'D");
+                        paymentType = "Paypal";
+                        Toast.makeText(MyWalletActivity.this, ""+paymentType, Toast.LENGTH_SHORT).show();
+
+
+
+                        break;
+                }
+            }
+        });
+
         binding.textView3.setText(String.valueOf(coins));
         binding.requestButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -137,7 +184,7 @@ public class MyWalletActivity extends AppCompatActivity implements MaxAdListener
 
                                 if (coins>=coinsAmount) {
 
-                                    WithdrawRequest request = new WithdrawRequest(uid, mobil, name, coinsAmount);
+                                    WithdrawRequest request = new WithdrawRequest(uid, mobil, name, coinsAmount,paymentType);
                                     database
                                             .collection("withdraws")
                                             .document(uid)
@@ -155,7 +202,7 @@ public class MyWalletActivity extends AppCompatActivity implements MaxAdListener
                                                         @Override
                                                         public void onComplete(@NonNull Task<Void> task) {
                                                             if (task.isSuccessful()) {
-                                                                UnityAds.show(MyWalletActivity.this,InterID);
+                                                              //  UnityAds.show(MyWalletActivity.this,InterID);
                                                             } else {
                                                                 Toast.makeText(getApplicationContext(), "" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                                                             }
@@ -218,12 +265,13 @@ public class MyWalletActivity extends AppCompatActivity implements MaxAdListener
     @Override
     public void onBackPressed() {
 
-        if (interstitialAd.isReady()){
-            interstitialAd.showAd();
-            finish();
-        }else {
-            finish();
-        }
+        finish();
+//        if (interstitialAd.isReady()){
+//            interstitialAd.showAd();
+//            finish();
+//        }else {
+//            finish();
+//        }
     }
 
     @Override

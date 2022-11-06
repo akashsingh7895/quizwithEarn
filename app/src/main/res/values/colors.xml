@@ -11,7 +11,7 @@
 
 
     <color name="darkBlack">#0E0C06</color>
-    <color name="darkBlue">#131B33</color>
+    <color name="darkBlue">#031440</color>
 <!--    <color name="darkBlue">#C30909</color>-->
     <color name="darkRed">#FF0E0E</color>
     <color name="darkYellow">#47380C</color>
@@ -19,7 +19,7 @@
     <color name="darkGreen">#273322</color>
 
     <color name="basic">#6B1B6E</color>
-    <color name="primery">#232533</color>
+    <color name="primery">#010C2B</color>
 <!--    <color name="primery">#D10853</color>-->
     <color name="logo">#FFD700</color>
 

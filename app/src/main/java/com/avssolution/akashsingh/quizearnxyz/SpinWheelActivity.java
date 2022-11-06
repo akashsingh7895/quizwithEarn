@@ -23,7 +23,10 @@ import android.widget.Toast;
 import com.applovin.mediation.MaxAd;
 import com.applovin.mediation.MaxAdListener;
 import com.applovin.mediation.MaxError;
+import com.applovin.mediation.MaxReward;
+import com.applovin.mediation.MaxRewardedAdListener;
 import com.applovin.mediation.ads.MaxInterstitialAd;
+import com.applovin.mediation.ads.MaxRewardedAd;
 import com.applovin.mediation.nativeAds.MaxNativeAdLoader;
 import com.avssolution.akashsingh.quizearnxyz.databinding.ActivitySpinWheelBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -37,7 +40,7 @@ import java.util.Calendar;
 import java.util.Objects;
 import java.util.Random;
 
-public class SpinWheelActivity extends AppCompatActivity implements MaxAdListener {
+public class SpinWheelActivity extends AppCompatActivity implements MaxAdListener, MaxRewardedAdListener {
     ActivitySpinWheelBinding binding;
     Dialog dialog;
     //private static final int[]  sectors = {100,30,40,200,50,60,70,80,3,90,10,20,1,0,110};
@@ -62,6 +65,8 @@ public class SpinWheelActivity extends AppCompatActivity implements MaxAdListene
     private MaxInterstitialAd interstitialAd;
     private MaxNativeAdLoader nativeAdLoader;
     private MaxAd nativeAd;
+    private MaxRewardedAd rewardedAd;
+    private int           retryAttempt;
 
 
 
@@ -76,6 +81,7 @@ public class SpinWheelActivity extends AppCompatActivity implements MaxAdListene
         interstitialAd = new MaxInterstitialAd(getString(R.string.inter),this);
         interstitialAd.setListener(this);
         interstitialAd.loadAd();
+        createRewardedAd();
        // loadnetiveAd();
         //applovin
 
@@ -105,16 +111,9 @@ public class SpinWheelActivity extends AppCompatActivity implements MaxAdListene
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (interstitialAd.isReady()){
-                    interstitialAd.showAd();
-                    Intent intent  = new Intent(SpinWheelActivity.this,MainActivity.class);
-                    startActivity(intent);
-                    finish();
-                }else {
-                    Intent intent  = new Intent(SpinWheelActivity.this,MainActivity.class);
-                    startActivity(intent);
-                    finish();
-                }
+                Intent intent  = new Intent(SpinWheelActivity.this,MainActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -181,26 +180,26 @@ public class SpinWheelActivity extends AppCompatActivity implements MaxAdListene
                     @Override
                     public void onClick(View view) {
 
-                        if (interstitialAd.isReady()){
-                            interstitialAd.showAd();
-                            for (int i = 0;i<spinTotalLeft;i++){
-                                FirebaseFirestore firestore = FirebaseFirestore.getInstance();
-                                firestore.collection("USERS")
-                                        .document(FirebaseAuth.getInstance().getUid())
-                                        .update("coins", FieldValue.increment(wonAmount))
-                                        .addOnCompleteListener(new OnCompleteListener<Void>() {
-                                            @Override
-                                            public void onComplete(@NonNull Task<Void> task) {
-                                                if (task.isSuccessful()){
-                                                    dialog.show();
+                        if (rewardedAd.isReady()){
+                            rewardedAd.showAd();
+//                            for (int i = 0;i<spinTotalLeft;i++){
+//                                FirebaseFirestore firestore = FirebaseFirestore.getInstance();
+//                                firestore.collection("USERS")
+//                                        .document(FirebaseAuth.getInstance().getUid())
+//                                        .update("coins", FieldValue.increment(wonAmount))
+//                                        .addOnCompleteListener(new OnCompleteListener<Void>() {
+//                                            @Override
+//                                            public void onComplete(@NonNull Task<Void> task) {
+//                                                if (task.isSuccessful()){
+//                                                    dialog.show();
+////
+//                                                }else {
+//                                                    Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
+//                                                }
+//                                            }
+//                                        });
 //
-                                                }else {
-                                                    Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
-                                                }
-                                            }
-                                        });
-
-                            }
+ //                           }
                         }else {
                             for (int i = 0;i<spinTotalLeft;i++){
                                 FirebaseFirestore firestore = FirebaseFirestore.getInstance();
@@ -254,18 +253,20 @@ public class SpinWheelActivity extends AppCompatActivity implements MaxAdListene
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        if (interstitialAd.isReady()){
-            interstitialAd.showAd();
-            Intent intent  = new Intent(SpinWheelActivity.this,MainActivity.class);
-            startActivity(intent);
-            finish();
-        }else {
-            Intent intent  = new Intent(SpinWheelActivity.this,MainActivity.class);
-            startActivity(intent);
-            finish();
-        }
+        Intent intent  = new Intent(SpinWheelActivity.this,MainActivity.class);
+        startActivity(intent);
+        finish();
 
     }
+
+    void createRewardedAd(){
+
+        rewardedAd = MaxRewardedAd.getInstance( getString(R.string.reward), this );
+        rewardedAd.setListener( this );
+
+        rewardedAd.loadAd();
+    }
+
 
 
     @Override
@@ -295,6 +296,39 @@ public class SpinWheelActivity extends AppCompatActivity implements MaxAdListene
 
     @Override
     public void onAdDisplayFailed(MaxAd ad, MaxError error) {
+
+    }
+
+    @Override
+    public void onRewardedVideoStarted(MaxAd ad) {
+
+    }
+
+    @Override
+    public void onRewardedVideoCompleted(MaxAd ad) {
+
+        for (int i = 0;i<spinTotalLeft;i++) {
+            FirebaseFirestore firestore = FirebaseFirestore.getInstance();
+            firestore.collection("USERS")
+                    .document(FirebaseAuth.getInstance().getUid())
+                    .update("coins", FieldValue.increment(wonAmount))
+                    .addOnCompleteListener(new OnCompleteListener<Void>() {
+                        @Override
+                        public void onComplete(@NonNull Task<Void> task) {
+                            if (task.isSuccessful()) {
+                                dialog.show();
+//
+                            } else {
+                                Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
+                            }
+                        }
+                    });
+                }
+
+    }
+
+    @Override
+    public void onUserRewarded(MaxAd ad, MaxReward reward) {
 
     }
 }

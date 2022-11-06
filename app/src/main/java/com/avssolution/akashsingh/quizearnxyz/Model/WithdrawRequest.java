@@ -8,17 +8,19 @@ public class WithdrawRequest {
     private String userId;
     private String mobileNumber;
     private String requestedBy;
+    private String paymentType;
 
     private long coins;
 
     public WithdrawRequest() {
     }
 
-    public WithdrawRequest(String userId, String mobileNumber, String requestedBy, long coins) {
+    public WithdrawRequest(String userId, String mobileNumber, String requestedBy, long coins,String paymentType) {
         this.userId = userId;
         this.mobileNumber = mobileNumber;
         this.requestedBy = requestedBy;
         this .coins = coins;
+        this.paymentType = paymentType;
     }
 
     public String getUserId() {
@@ -62,5 +64,13 @@ public class WithdrawRequest {
 
     public void setCoins(long coins) {
         this.coins = coins;
+    }
+
+    public String getPaymentType() {
+        return paymentType;
+    }
+
+    public void setPaymentType(String paymentType) {
+        this.paymentType = paymentType;
     }
 }
