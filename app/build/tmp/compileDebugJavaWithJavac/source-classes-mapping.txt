@@ -41,10 +41,8 @@ com/avssolution/akashsingh/quizearnxyz/databinding/HeaderBinding.java
  com.avssolution.akashsingh.quizearnxyz.databinding.HeaderBinding
 com/avssolution/akashsingh/quizearnxyz/Model/Question.java
  com.avssolution.akashsingh.quizearnxyz.Model.Question
-com/avssolution/akashsingh/quizearnxyz/ResultActivity.java
- com.avssolution.akashsingh.quizearnxyz.ResultActivity
- com.avssolution.akashsingh.quizearnxyz.ResultActivity$1
- com.avssolution.akashsingh.quizearnxyz.ResultActivity$2
+com/avssolution/akashsingh/quizearnxyz/databinding/InsuffecentCoinDiloagBinding.java
+ com.avssolution.akashsingh.quizearnxyz.databinding.InsuffecentCoinDiloagBinding
 com/avssolution/akashsingh/quizearnxyz/LeaderBordActivity.java
  com.avssolution.akashsingh.quizearnxyz.LeaderBordActivity
  com.avssolution.akashsingh.quizearnxyz.LeaderBordActivity$1
@@ -72,6 +70,58 @@ com/avssolution/akashsingh/quizearnxyz/UpdateProfileAcvity.java
  com.avssolution.akashsingh.quizearnxyz.UpdateProfileAcvity$2
 com/avssolution/akashsingh/quizearnxyz/databinding/ActivityQuizBinding.java
  com.avssolution.akashsingh.quizearnxyz.databinding.ActivityQuizBinding
+com/avssolution/akashsingh/quizearnxyz/databinding/ActivityMyWalletBinding.java
+ com.avssolution.akashsingh.quizearnxyz.databinding.ActivityMyWalletBinding
+com/avssolution/akashsingh/quizearnxyz/databinding/RowLearbordBinding.java
+ com.avssolution.akashsingh.quizearnxyz.databinding.RowLearbordBinding
+com/avssolution/akashsingh/quizearnxyz/databinding/ActivityUpdateProfileAcvityBinding.java
+ com.avssolution.akashsingh.quizearnxyz.databinding.ActivityUpdateProfileAcvityBinding
+com/avssolution/akashsingh/quizearnxyz/Model/CategoryModel.java
+ com.avssolution.akashsingh.quizearnxyz.Model.CategoryModel
+com/avssolution/akashsingh/quizearnxyz/databinding/ActivityScratchCardBinding.java
+ com.avssolution.akashsingh.quizearnxyz.databinding.ActivityScratchCardBinding
+com/avssolution/akashsingh/quizearnxyz/databinding/ActivityWatchVideoBinding.java
+ com.avssolution.akashsingh.quizearnxyz.databinding.ActivityWatchVideoBinding
+com/avssolution/akashsingh/quizearnxyz/Model/WithdrawRequest.java
+ com.avssolution.akashsingh.quizearnxyz.Model.WithdrawRequest
+com/avssolution/akashsingh/quizearnxyz/Model/LeaderBordAdapter.java
+ com.avssolution.akashsingh.quizearnxyz.Model.LeaderBordAdapter
+ com.avssolution.akashsingh.quizearnxyz.Model.LeaderBordAdapter$ViewHolder
+com/avssolution/akashsingh/quizearnxyz/databinding/ActivitySignUpBinding.java
+ com.avssolution.akashsingh.quizearnxyz.databinding.ActivitySignUpBinding
+com/avssolution/akashsingh/quizearnxyz/databinding/ActivityMainBinding.java
+ com.avssolution.akashsingh.quizearnxyz.databinding.ActivityMainBinding
+com/avssolution/akashsingh/quizearnxyz/databinding/ActivityResultBinding.java
+ com.avssolution.akashsingh.quizearnxyz.databinding.ActivityResultBinding
+com/avssolution/akashsingh/quizearnxyz/databinding/ActivityLeaderBordBinding.java
+ com.avssolution.akashsingh.quizearnxyz.databinding.ActivityLeaderBordBinding
+com/avssolution/akashsingh/quizearnxyz/databinding/LoadingProgressDialogBinding.java
+ com.avssolution.akashsingh.quizearnxyz.databinding.LoadingProgressDialogBinding
+com/avssolution/akashsingh/quizearnxyz/databinding/ActivitySpinWheelBinding.java
+ com.avssolution.akashsingh.quizearnxyz.databinding.ActivitySpinWheelBinding
+com/avssolution/akashsingh/quizearnxyz/Model/User.java
+ com.avssolution.akashsingh.quizearnxyz.Model.User
+com/avssolution/akashsingh/quizearnxyz/DailyCheckActivity.java
+ com.avssolution.akashsingh.quizearnxyz.DailyCheckActivity
+ com.avssolution.akashsingh.quizearnxyz.DailyCheckActivity$1
+ com.avssolution.akashsingh.quizearnxyz.DailyCheckActivity$1$1
+ com.avssolution.akashsingh.quizearnxyz.DailyCheckActivity$1$1$1
+ com.avssolution.akashsingh.quizearnxyz.DailyCheckActivity$1$2
+ com.avssolution.akashsingh.quizearnxyz.DailyCheckActivity$2
+ com.avssolution.akashsingh.quizearnxyz.DailyCheckActivity$3
+com/avssolution/akashsingh/quizearnxyz/ScratchCardActivity.java
+ com.avssolution.akashsingh.quizearnxyz.ScratchCardActivity
+ com.avssolution.akashsingh.quizearnxyz.ScratchCardActivity$1
+ com.avssolution.akashsingh.quizearnxyz.ScratchCardActivity$1$1
+ com.avssolution.akashsingh.quizearnxyz.ScratchCardActivity$1$1$1
+ com.avssolution.akashsingh.quizearnxyz.ScratchCardActivity$1$1$2
+ com.avssolution.akashsingh.quizearnxyz.ScratchCardActivity$2
+ com.avssolution.akashsingh.quizearnxyz.ScratchCardActivity$3
+ com.avssolution.akashsingh.quizearnxyz.ScratchCardActivity$4
+com/avssolution/akashsingh/quizearnxyz/ResultActivity.java
+ com.avssolution.akashsingh.quizearnxyz.ResultActivity
+ com.avssolution.akashsingh.quizearnxyz.ResultActivity$1
+ com.avssolution.akashsingh.quizearnxyz.ResultActivity$2
 com/avssolution/akashsingh/quizearnxyz/SpinWheelActivity.java
  com.avssolution.akashsingh.quizearnxyz.SpinWheelActivity
  com.avssolution.akashsingh.quizearnxyz.SpinWheelActivity$1
@@ -87,83 +137,6 @@ com/avssolution/akashsingh/quizearnxyz/QuizActivity.java
  com.avssolution.akashsingh.quizearnxyz.QuizActivity$2
  com.avssolution.akashsingh.quizearnxyz.QuizActivity$3
  com.avssolution.akashsingh.quizearnxyz.QuizActivity$4
-com/avssolution/akashsingh/quizearnxyz/databinding/ActivityUpdateProfileAcvityBinding.java
- com.avssolution.akashsingh.quizearnxyz.databinding.ActivityUpdateProfileAcvityBinding
-com/avssolution/akashsingh/quizearnxyz/SplashActivity.java
- com.avssolution.akashsingh.quizearnxyz.SplashActivity
- com.avssolution.akashsingh.quizearnxyz.SplashActivity$1
- com.avssolution.akashsingh.quizearnxyz.SplashActivity$2
-com/avssolution/akashsingh/quizearnxyz/SignUpActivity.java
- com.avssolution.akashsingh.quizearnxyz.SignUpActivity
- com.avssolution.akashsingh.quizearnxyz.SignUpActivity$1
- com.avssolution.akashsingh.quizearnxyz.SignUpActivity$2
- com.avssolution.akashsingh.quizearnxyz.SignUpActivity$3
- com.avssolution.akashsingh.quizearnxyz.SignUpActivity$4
- com.avssolution.akashsingh.quizearnxyz.SignUpActivity$5
- com.avssolution.akashsingh.quizearnxyz.SignUpActivity$6
- com.avssolution.akashsingh.quizearnxyz.SignUpActivity$6$1
- com.avssolution.akashsingh.quizearnxyz.SignUpActivity$6$1$1
- com.avssolution.akashsingh.quizearnxyz.SignUpActivity$7
-com/avssolution/akashsingh/quizearnxyz/LogInActivity.java
- com.avssolution.akashsingh.quizearnxyz.LogInActivity
- com.avssolution.akashsingh.quizearnxyz.LogInActivity$1
- com.avssolution.akashsingh.quizearnxyz.LogInActivity$1$1
- com.avssolution.akashsingh.quizearnxyz.LogInActivity$2
- com.avssolution.akashsingh.quizearnxyz.LogInActivity$3
-com/avssolution/akashsingh/quizearnxyz/Model/WithdrawRequest.java
- com.avssolution.akashsingh.quizearnxyz.Model.WithdrawRequest
-com/avssolution/akashsingh/quizearnxyz/DailyCheckActivity.java
- com.avssolution.akashsingh.quizearnxyz.DailyCheckActivity
- com.avssolution.akashsingh.quizearnxyz.DailyCheckActivity$1
- com.avssolution.akashsingh.quizearnxyz.DailyCheckActivity$1$1
- com.avssolution.akashsingh.quizearnxyz.DailyCheckActivity$1$1$1
- com.avssolution.akashsingh.quizearnxyz.DailyCheckActivity$1$2
- com.avssolution.akashsingh.quizearnxyz.DailyCheckActivity$2
- com.avssolution.akashsingh.quizearnxyz.DailyCheckActivity$3
-com/avssolution/akashsingh/quizearnxyz/databinding/ActivitySignUpBinding.java
- com.avssolution.akashsingh.quizearnxyz.databinding.ActivitySignUpBinding
-com/avssolution/akashsingh/quizearnxyz/databinding/ActivityMainBinding.java
- com.avssolution.akashsingh.quizearnxyz.databinding.ActivityMainBinding
-com/avssolution/akashsingh/quizearnxyz/databinding/ActivityResultBinding.java
- com.avssolution.akashsingh.quizearnxyz.databinding.ActivityResultBinding
-com/avssolution/akashsingh/quizearnxyz/databinding/ActivityLeaderBordBinding.java
- com.avssolution.akashsingh.quizearnxyz.databinding.ActivityLeaderBordBinding
-com/avssolution/akashsingh/quizearnxyz/databinding/LoadingProgressDialogBinding.java
- com.avssolution.akashsingh.quizearnxyz.databinding.LoadingProgressDialogBinding
-com/avssolution/akashsingh/quizearnxyz/databinding/ActivitySpinWheelBinding.java
- com.avssolution.akashsingh.quizearnxyz.databinding.ActivitySpinWheelBinding
-com/avssolution/akashsingh/quizearnxyz/Model/User.java
- com.avssolution.akashsingh.quizearnxyz.Model.User
-com/avssolution/akashsingh/quizearnxyz/databinding/ActivityWatchVideoBinding.java
- com.avssolution.akashsingh.quizearnxyz.databinding.ActivityWatchVideoBinding
-com/avssolution/akashsingh/quizearnxyz/databinding/ActivityScratchCardBinding.java
- com.avssolution.akashsingh.quizearnxyz.databinding.ActivityScratchCardBinding
-com/avssolution/akashsingh/quizearnxyz/WatchVideoActivity.java
- com.avssolution.akashsingh.quizearnxyz.WatchVideoActivity
- com.avssolution.akashsingh.quizearnxyz.WatchVideoActivity$1
- com.avssolution.akashsingh.quizearnxyz.WatchVideoActivity$2
- com.avssolution.akashsingh.quizearnxyz.WatchVideoActivity$3
- com.avssolution.akashsingh.quizearnxyz.WatchVideoActivity$4
-com/avssolution/akashsingh/quizearnxyz/Model/CategoryModel.java
- com.avssolution.akashsingh.quizearnxyz.Model.CategoryModel
-com/avssolution/akashsingh/quizearnxyz/Model/LeaderBordAdapter.java
- com.avssolution.akashsingh.quizearnxyz.Model.LeaderBordAdapter
- com.avssolution.akashsingh.quizearnxyz.Model.LeaderBordAdapter$ViewHolder
-com/avssolution/akashsingh/quizearnxyz/databinding/InsuffecentCoinDiloagBinding.java
- com.avssolution.akashsingh.quizearnxyz.databinding.InsuffecentCoinDiloagBinding
-com/avssolution/akashsingh/quizearnxyz/databinding/RowLearbordBinding.java
- com.avssolution.akashsingh.quizearnxyz.databinding.RowLearbordBinding
-com/avssolution/akashsingh/quizearnxyz/databinding/ActivityMyWalletBinding.java
- com.avssolution.akashsingh.quizearnxyz.databinding.ActivityMyWalletBinding
-com/avssolution/akashsingh/quizearnxyz/ScratchCardActivity.java
- com.avssolution.akashsingh.quizearnxyz.ScratchCardActivity
- com.avssolution.akashsingh.quizearnxyz.ScratchCardActivity$1
- com.avssolution.akashsingh.quizearnxyz.ScratchCardActivity$1$1
- com.avssolution.akashsingh.quizearnxyz.ScratchCardActivity$1$1$1
- com.avssolution.akashsingh.quizearnxyz.ScratchCardActivity$1$1$2
- com.avssolution.akashsingh.quizearnxyz.ScratchCardActivity$2
- com.avssolution.akashsingh.quizearnxyz.ScratchCardActivity$3
- com.avssolution.akashsingh.quizearnxyz.ScratchCardActivity$4
 com/avssolution/akashsingh/quizearnxyz/MyWalletActivity.java
  com.avssolution.akashsingh.quizearnxyz.MyWalletActivity
  com.avssolution.akashsingh.quizearnxyz.MyWalletActivity$1
@@ -189,3 +162,30 @@ com/avssolution/akashsingh/quizearnxyz/MainActivity.java
  com.avssolution.akashsingh.quizearnxyz.MainActivity$7
  com.avssolution.akashsingh.quizearnxyz.MainActivity$8
  com.avssolution.akashsingh.quizearnxyz.MainActivity$9
+com/avssolution/akashsingh/quizearnxyz/WatchVideoActivity.java
+ com.avssolution.akashsingh.quizearnxyz.WatchVideoActivity
+ com.avssolution.akashsingh.quizearnxyz.WatchVideoActivity$1
+ com.avssolution.akashsingh.quizearnxyz.WatchVideoActivity$2
+ com.avssolution.akashsingh.quizearnxyz.WatchVideoActivity$3
+ com.avssolution.akashsingh.quizearnxyz.WatchVideoActivity$4
+com/avssolution/akashsingh/quizearnxyz/SplashActivity.java
+ com.avssolution.akashsingh.quizearnxyz.SplashActivity
+ com.avssolution.akashsingh.quizearnxyz.SplashActivity$1
+ com.avssolution.akashsingh.quizearnxyz.SplashActivity$2
+com/avssolution/akashsingh/quizearnxyz/SignUpActivity.java
+ com.avssolution.akashsingh.quizearnxyz.SignUpActivity
+ com.avssolution.akashsingh.quizearnxyz.SignUpActivity$1
+ com.avssolution.akashsingh.quizearnxyz.SignUpActivity$2
+ com.avssolution.akashsingh.quizearnxyz.SignUpActivity$3
+ com.avssolution.akashsingh.quizearnxyz.SignUpActivity$4
+ com.avssolution.akashsingh.quizearnxyz.SignUpActivity$5
+ com.avssolution.akashsingh.quizearnxyz.SignUpActivity$6
+ com.avssolution.akashsingh.quizearnxyz.SignUpActivity$6$1
+ com.avssolution.akashsingh.quizearnxyz.SignUpActivity$6$1$1
+ com.avssolution.akashsingh.quizearnxyz.SignUpActivity$7
+com/avssolution/akashsingh/quizearnxyz/LogInActivity.java
+ com.avssolution.akashsingh.quizearnxyz.LogInActivity
+ com.avssolution.akashsingh.quizearnxyz.LogInActivity$1
+ com.avssolution.akashsingh.quizearnxyz.LogInActivity$1$1
+ com.avssolution.akashsingh.quizearnxyz.LogInActivity$2
+ com.avssolution.akashsingh.quizearnxyz.LogInActivity$3
