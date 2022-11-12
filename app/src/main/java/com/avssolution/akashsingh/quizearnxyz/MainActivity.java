@@ -183,14 +183,14 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
             @Override
             public void onClick(View v) {
               //  UnityAds.show(MainActivity.this,InterID);
-//                if (interstitialAd.isReady()){
-//                    interstitialAd.showAd();
-//
-//
-//                }else {
-//                    startActivity(new Intent(MainActivity.this,CategoryActivity.class));
-//
-//                }
+                if (interstitialAd.isReady()){
+                    interstitialAd.showAd();
+
+
+                }else {
+                    startActivity(new Intent(MainActivity.this,CategoryActivity.class));
+
+                }
 
                 startActivity(new Intent(MainActivity.this,CategoryActivity.class));
 
@@ -201,16 +201,16 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
             @Override
             public void onClick(View v) {
               //  UnityAds.show(MainActivity.this,InterID);
-//                if (interstitialAd.isReady()){
-//                    interstitialAd.showAd();
-//
-//                }else {
-//                    Intent intent = new Intent(MainActivity.this,MyWalletActivity.class);
-//                    startActivity(intent);
-//                }
+                if (interstitialAd.isReady()){
+                    interstitialAd.showAd();
 
-                Intent intent = new Intent(MainActivity.this,MyWalletActivity.class);
-                startActivity(intent);
+                }else {
+                    Intent intent = new Intent(MainActivity.this,MyWalletActivity.class);
+                    startActivity(intent);
+                }
+
+//                Intent intent = new Intent(MainActivity.this,MyWalletActivity.class);
+//                startActivity(intent);
 
             }
         });
@@ -219,29 +219,29 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
             @Override
             public void onClick(View v) {
               //  UnityAds.show(MainActivity.this,InterID);
-//                if (interstitialAd.isReady()){
-//                    interstitialAd.showAd();
-//
-//                }else {
-//                    startActivity(new Intent(MainActivity.this,ProfileActivity.class));
-//
-//                }
-                startActivity(new Intent(MainActivity.this,ProfileActivity.class));
+                if (interstitialAd.isReady()){
+                    interstitialAd.showAd();
+
+                }else {
+                    startActivity(new Intent(MainActivity.this,ProfileActivity.class));
+
+                }
+              //  startActivity(new Intent(MainActivity.this,ProfileActivity.class));
 
             }
         });
         binding.spinWheel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//              if (interstitialAd.isReady()){
-//                  interstitialAd.showAd();
-//
-//              }else {
-//                  startActivity(new Intent(MainActivity.this,SpinWheelActivity.class));
-//
-//              }
+              if (interstitialAd.isReady()){
+                  interstitialAd.showAd();
 
-                startActivity(new Intent(MainActivity.this,SpinWheelActivity.class));
+              }else {
+                  startActivity(new Intent(MainActivity.this,SpinWheelActivity.class));
+
+              }
+
+//                startActivity(new Intent(MainActivity.this,SpinWheelActivity.class));
 
 
             }
@@ -256,14 +256,14 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
         binding.dailyCheckIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                if (interstitialAd.isReady()){
-//                    interstitialAd.showAd();
-//
-//                }else {
-//                    startActivity(new Intent(MainActivity.this,DailyCheckActivity.class));
-//
-//                }
-                startActivity(new Intent(MainActivity.this,DailyCheckActivity.class));
+                if (interstitialAd.isReady()){
+                    interstitialAd.showAd();
+
+                }else {
+                    startActivity(new Intent(MainActivity.this,DailyCheckActivity.class));
+
+                }
+              //  startActivity(new Intent(MainActivity.this,DailyCheckActivity.class));
 
             }
         });
@@ -272,14 +272,14 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
             @Override
             public void onClick(View v) {
 
-//                if (interstitialAd.isReady()){
-//                    interstitialAd.showAd();
-//
-//                }else {
-//                    startActivity(new Intent(MainActivity.this,ScratchCardActivity.class));
-//
-//                }
-                startActivity(new Intent(MainActivity.this,ScratchCardActivity.class));
+                if (interstitialAd.isReady()){
+                    interstitialAd.showAd();
+
+                }else {
+                    startActivity(new Intent(MainActivity.this,ScratchCardActivity.class));
+
+               }
+              //  startActivity(new Intent(MainActivity.this,ScratchCardActivity.class));
 
 
             }
@@ -422,7 +422,7 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
     public void onBackPressed() {
         new AlertDialog.Builder(this)
                 .setMessage("कृपया इस ऐप को Play store पर 5 Star ratings दें Thank you ")
-                .setCancelable(false)
+                .setCancelable(true)
                 .setPositiveButton("exit", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
 
