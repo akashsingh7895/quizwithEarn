@@ -176,7 +176,7 @@ public class MyWalletActivity extends AppCompatActivity implements MaxAdListener
                         if (!binding.amount.getText().toString().equals("")){
                             loadingDialog.show();
                             binding.requestButton.setEnabled(true);
-                            if(coins > 30000) {
+                            if(coins > 5000) {
                                 String uid = FirebaseAuth.getInstance().getUid();
                                 String mobil =   binding.withdrawMob.getText().toString();
                                // coinsAmount = Long.parseLong(binding.amount.getText().toString());

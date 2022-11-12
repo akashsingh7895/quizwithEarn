@@ -84,7 +84,7 @@ public class QuizActivity extends AppCompatActivity implements MaxAdListener {
         final String catId = getIntent().getStringExtra("catId");
 
         Random random = new Random();
-        final int rand = random.nextInt(6);
+        final int rand = random.nextInt(5);
 
         database.collection("categories")
                 .document(catId)
@@ -229,9 +229,12 @@ public class QuizActivity extends AppCompatActivity implements MaxAdListener {
             case R.id.option3:
             case R.id.option4:
 
+
                 if (timer !=null){
                     timer.cancel();
                 }
+
+                setClickable(false);
 
                 TextView selected = (TextView) view;
                 checkAnswer(selected);
@@ -241,6 +244,7 @@ public class QuizActivity extends AppCompatActivity implements MaxAdListener {
                     reset();
                     index++;
                     setNextQuestion();
+                    setClickable(true);
                     break;
                 }else {
                     if (interstitialAd.isReady()){
@@ -272,6 +276,12 @@ public class QuizActivity extends AppCompatActivity implements MaxAdListener {
         mediaPlayer.start();
     }
 
+    public void setClickable(boolean b){
+        binding.option1.setClickable(b);
+        binding.option2.setClickable(b);
+        binding.option3.setClickable(b);
+        binding.option4.setClickable(b);
+    }
 
     @Override
     public void onAdLoaded(MaxAd ad) {

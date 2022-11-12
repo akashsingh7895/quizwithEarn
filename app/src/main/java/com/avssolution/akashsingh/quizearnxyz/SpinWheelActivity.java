@@ -43,7 +43,6 @@ import java.util.Random;
 public class SpinWheelActivity extends AppCompatActivity implements MaxAdListener, MaxRewardedAdListener {
     ActivitySpinWheelBinding binding;
     Dialog dialog;
-    //private static final int[]  sectors = {100,30,40,200,50,60,70,80,3,90,10,20,1,0,110};
     private static final int[]  sectors = {50,40,35,30,25,20,15,10,5,0};
     private static final int[] sectorsDegrees = new int[sectors.length];
     private static final Random random = new Random();
@@ -182,24 +181,24 @@ public class SpinWheelActivity extends AppCompatActivity implements MaxAdListene
 
                         if (rewardedAd.isReady()){
                             rewardedAd.showAd();
-//                            for (int i = 0;i<spinTotalLeft;i++){
-//                                FirebaseFirestore firestore = FirebaseFirestore.getInstance();
-//                                firestore.collection("USERS")
-//                                        .document(FirebaseAuth.getInstance().getUid())
-//                                        .update("coins", FieldValue.increment(wonAmount))
-//                                        .addOnCompleteListener(new OnCompleteListener<Void>() {
-//                                            @Override
-//                                            public void onComplete(@NonNull Task<Void> task) {
-//                                                if (task.isSuccessful()){
-//                                                    dialog.show();
-////
-//                                                }else {
-//                                                    Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
-//                                                }
-//                                            }
-//                                        });
+                            for (int i = 0;i<spinTotalLeft;i++){
+                                FirebaseFirestore firestore = FirebaseFirestore.getInstance();
+                                firestore.collection("USERS")
+                                        .document(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                                        .update("coins", FieldValue.increment(wonAmount))
+                                        .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                            @Override
+                                            public void onComplete(@NonNull Task<Void> task) {
+                                                if (task.isSuccessful()){
+                                                    dialog.show();
 //
- //                           }
+                                                }else {
+                                                    Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
+                                                }
+                                            }
+                                        });
+
+                            }
                         }else {
                             for (int i = 0;i<spinTotalLeft;i++){
                                 FirebaseFirestore firestore = FirebaseFirestore.getInstance();
@@ -307,23 +306,23 @@ public class SpinWheelActivity extends AppCompatActivity implements MaxAdListene
     @Override
     public void onRewardedVideoCompleted(MaxAd ad) {
 
-        for (int i = 0;i<spinTotalLeft;i++) {
-            FirebaseFirestore firestore = FirebaseFirestore.getInstance();
-            firestore.collection("USERS")
-                    .document(FirebaseAuth.getInstance().getUid())
-                    .update("coins", FieldValue.increment(wonAmount))
-                    .addOnCompleteListener(new OnCompleteListener<Void>() {
-                        @Override
-                        public void onComplete(@NonNull Task<Void> task) {
-                            if (task.isSuccessful()) {
-                                dialog.show();
-//
-                            } else {
-                                Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
-                            }
-                        }
-                    });
-                }
+//        for (int i = 0;i<spinTotalLeft;i++) {
+//            FirebaseFirestore firestore = FirebaseFirestore.getInstance();
+//            firestore.collection("USERS")
+//                    .document(FirebaseAuth.getInstance().getUid())
+//                    .update("coins", FieldValue.increment(wonAmount))
+//                    .addOnCompleteListener(new OnCompleteListener<Void>() {
+//                        @Override
+//                        public void onComplete(@NonNull Task<Void> task) {
+//                            if (task.isSuccessful()) {
+//                                dialog.show();
+////
+//                            } else {
+//                                Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
+//                            }
+//                        }
+//                    });
+//                }
 
     }
 

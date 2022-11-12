@@ -141,21 +141,21 @@ public class ScratchCardActivity extends AppCompatActivity implements MaxAdListe
                         public void onClick(View view) {
                             if (rewardedAd.isReady()){
                                 rewardedAd.showAd();
-//                                FirebaseFirestore firestore = FirebaseFirestore.getInstance();
-//                                firestore.collection("USERS")
-//                                        .document(FirebaseAuth.getInstance().getUid())
-//                                        .update("coins", FieldValue.increment(randomNumber))
-//                                        .addOnCompleteListener(new OnCompleteListener<Void>() {
-//                                            @Override
-//                                            public void onComplete(@NonNull Task<Void> task) {
-//                                                if (task.isSuccessful()){
-//                                                    //dialog.show();
-//                                                    Toast.makeText(ScratchCardActivity.this, "Coins Add", Toast.LENGTH_SHORT).show();
-//                                                }else {
-//                                                    Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
-//                                                }
-//                                            }
-//                                        });
+                                FirebaseFirestore firestore = FirebaseFirestore.getInstance();
+                                firestore.collection("USERS")
+                                        .document(FirebaseAuth.getInstance().getUid())
+                                        .update("coins", FieldValue.increment(randomNumber))
+                                        .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                            @Override
+                                            public void onComplete(@NonNull Task<Void> task) {
+                                                if (task.isSuccessful()){
+                                                    //dialog.show();
+                                                    Toast.makeText(ScratchCardActivity.this, "Coins Add", Toast.LENGTH_SHORT).show();
+                                                }else {
+                                                    Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
+                                                }
+                                            }
+                                        });
                             }else {
                                 FirebaseFirestore firestore = FirebaseFirestore.getInstance();
                                 firestore.collection("USERS")
@@ -325,21 +325,21 @@ public class ScratchCardActivity extends AppCompatActivity implements MaxAdListe
 
     @Override
     public void onRewardedVideoCompleted(MaxAd ad) {
-        FirebaseFirestore firestore = FirebaseFirestore.getInstance();
-        firestore.collection("USERS")
-                .document(FirebaseAuth.getInstance().getUid())
-                .update("coins", FieldValue.increment(randomNumber))
-                .addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
-                        if (task.isSuccessful()){
-                            //dialog.show();
-                            Toast.makeText(ScratchCardActivity.this, "Coins Add", Toast.LENGTH_SHORT).show();
-                        }else {
-                            Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
+//        FirebaseFirestore firestore = FirebaseFirestore.getInstance();
+//        firestore.collection("USERS")
+//                .document(FirebaseAuth.getInstance().getUid())
+//                .update("coins", FieldValue.increment(randomNumber))
+//                .addOnCompleteListener(new OnCompleteListener<Void>() {
+//                    @Override
+//                    public void onComplete(@NonNull Task<Void> task) {
+//                        if (task.isSuccessful()){
+//                            //dialog.show();
+//                            Toast.makeText(ScratchCardActivity.this, "Coins Add", Toast.LENGTH_SHORT).show();
+//                        }else {
+//                            Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
+//                        }
+//                    }
+//                });
 
     }
 
