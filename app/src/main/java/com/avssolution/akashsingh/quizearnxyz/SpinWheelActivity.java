@@ -181,43 +181,38 @@ public class SpinWheelActivity extends AppCompatActivity implements MaxAdListene
 
                         if (rewardedAd.isReady()){
                             rewardedAd.showAd();
-                            for (int i = 0;i<spinTotalLeft;i++){
-                                FirebaseFirestore firestore = FirebaseFirestore.getInstance();
-                                firestore.collection("USERS")
-                                        .document(FirebaseAuth.getInstance().getCurrentUser().getUid())
-                                        .update("coins", FieldValue.increment(wonAmount))
-                                        .addOnCompleteListener(new OnCompleteListener<Void>() {
-                                            @Override
-                                            public void onComplete(@NonNull Task<Void> task) {
-                                                if (task.isSuccessful()){
-                                                    dialog.show();
+                            FirebaseFirestore firestore = FirebaseFirestore.getInstance();
+                            firestore.collection("USERS")
+                                    .document(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                                    .update("coins", FieldValue.increment(wonAmount))
+                                    .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                        @Override
+                                        public void onComplete(@NonNull Task<Void> task) {
+                                            if (task.isSuccessful()){
+                                                dialog.show();
 //
-                                                }else {
-                                                    Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
-                                                }
+                                            }else {
+                                                Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
                                             }
-                                        });
+                                        }
+                                    });
 
-                            }
                         }else {
-                            for (int i = 0;i<spinTotalLeft;i++){
-                                FirebaseFirestore firestore = FirebaseFirestore.getInstance();
-                                firestore.collection("USERS")
-                                        .document(FirebaseAuth.getInstance().getUid())
-                                        .update("coins", FieldValue.increment(wonAmount))
-                                        .addOnCompleteListener(new OnCompleteListener<Void>() {
-                                            @Override
-                                            public void onComplete(@NonNull Task<Void> task) {
-                                                if (task.isSuccessful()){
-                                                    dialog.show();
+                            FirebaseFirestore firestore = FirebaseFirestore.getInstance();
+                            firestore.collection("USERS")
+                                    .document(FirebaseAuth.getInstance().getUid())
+                                    .update("coins", FieldValue.increment(wonAmount))
+                                    .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                        @Override
+                                        public void onComplete(@NonNull Task<Void> task) {
+                                            if (task.isSuccessful()){
+                                                dialog.show();
 //
-                                                }else {
-                                                    Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
-                                                }
+                                            }else {
+                                                Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
                                             }
-                                        });
-
-                            }
+                                        }
+                                    });
                         }
 
                         startActivity(getIntent());
