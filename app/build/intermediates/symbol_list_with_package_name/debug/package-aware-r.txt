@@ -1338,6 +1338,7 @@ color gnt_test_background_color_2
 color gnt_white
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color logo
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
@@ -2664,6 +2665,7 @@ drawable img
 drawable img_1
 drawable key
 drawable kkk
+drawable logo
 drawable logo_q
 drawable logo_q_paisa
 drawable m3_appbar_background

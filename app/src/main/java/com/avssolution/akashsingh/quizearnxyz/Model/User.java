@@ -2,7 +2,7 @@ package com.avssolution.akashsingh.quizearnxyz.Model;
 
 public class User {
     private String name,email,mobile,password;
-    private long coins = 5000;
+    private long coins = 100;
 
     public User() {
     }

@@ -6,15 +6,23 @@
    android:background="@drawable/background"
     >
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/logoIv"
+    <androidx.cardview.widget.CardView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/qpaisa_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:cardCornerRadius="15dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo">
+
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
 
 
 

@@ -185,6 +185,7 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
               //  UnityAds.show(MainActivity.this,InterID);
                 if (interstitialAd.isReady()){
                     interstitialAd.showAd();
+                    startActivity(new Intent(MainActivity.this,CategoryActivity.class));
 
 
                 }else {
@@ -192,7 +193,7 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
 
                 }
 
-                startActivity(new Intent(MainActivity.this,CategoryActivity.class));
+               // startActivity(new Intent(MainActivity.this,CategoryActivity.class));
 
             }
         });
@@ -203,7 +204,8 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
               //  UnityAds.show(MainActivity.this,InterID);
                 if (interstitialAd.isReady()){
                     interstitialAd.showAd();
-
+                    Intent intent = new Intent(MainActivity.this,MyWalletActivity.class);
+                    startActivity(intent);
                 }else {
                     Intent intent = new Intent(MainActivity.this,MyWalletActivity.class);
                     startActivity(intent);
@@ -221,6 +223,7 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
               //  UnityAds.show(MainActivity.this,InterID);
                 if (interstitialAd.isReady()){
                     interstitialAd.showAd();
+                    startActivity(new Intent(MainActivity.this,ProfileActivity.class));
 
                 }else {
                     startActivity(new Intent(MainActivity.this,ProfileActivity.class));
@@ -235,6 +238,7 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
             public void onClick(View v) {
               if (interstitialAd.isReady()){
                   interstitialAd.showAd();
+                  startActivity(new Intent(MainActivity.this,SpinWheelActivity.class));
 
               }else {
                   startActivity(new Intent(MainActivity.this,SpinWheelActivity.class));
@@ -258,6 +262,7 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
             public void onClick(View v) {
                 if (interstitialAd.isReady()){
                     interstitialAd.showAd();
+                    startActivity(new Intent(MainActivity.this,DailyCheckActivity.class));
 
                 }else {
                     startActivity(new Intent(MainActivity.this,DailyCheckActivity.class));
@@ -274,6 +279,7 @@ public class MainActivity extends AppCompatActivity implements MaxAdListener {
 
                 if (interstitialAd.isReady()){
                     interstitialAd.showAd();
+                    startActivity(new Intent(MainActivity.this,ScratchCardActivity.class));
 
                 }else {
                     startActivity(new Intent(MainActivity.this,ScratchCardActivity.class));

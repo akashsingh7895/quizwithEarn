@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Quiz With Earn</string>
+    <string name="app_name">Scratch and win</string>
 
     <string name="drawerOpen">open</string>
     <string name="drawerClose">close</string>
@@ -41,9 +41,9 @@
     <string name="qureka_desc">Play Quiz &amp; Win Now</string>
 
     <!--    Applovin Ads-->
-    <string name="inter">beb90c3186a74f8a</string>
-    <string name="netive">32ac1df235e06e73</string>
-    <string name="reward">2ba5d911e960559b</string>
+    <string name="inter">c21e007bb1913c22</string>
+    <string name="netive">f2a65bdfb743ccd8</string>
+    <string name="reward">ae6352fe9023e3b3</string>
 
 
 </resources>

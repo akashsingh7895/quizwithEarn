@@ -76,24 +76,24 @@
         "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_key.png.flat",
-        "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\drawable\\key.png"
-    },
-    {
         "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_wal.png.flat",
         "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\drawable\\wal.png"
+    },
+    {
+        "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_key.png.flat",
+        "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\drawable\\key.png"
     },
     {
         "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_q_paisa.png.flat",
         "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\drawable\\logo_q_paisa.png"
     },
     {
-        "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_paisa_logo.png.flat",
         "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\drawable\\paisa_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_spin_stand.webp.flat",
@@ -104,12 +104,12 @@
         "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\drawable\\terms_condi_icon.jpg"
     },
     {
-        "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_tprh.png.flat",
         "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\drawable\\tprh.png"
+    },
+    {
+        "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_wallet.png.flat",
@@ -160,12 +160,12 @@
         "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\drawable\\podium.png"
     },
     {
-        "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_spinner.png.flat",
         "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\drawable-v24\\spinner.png"
+    },
+    {
+        "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\layout_row_learbord.xml.flat",
@@ -300,12 +300,12 @@
         "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\drawable-v24\\wrong.png"
     },
     {
-        "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
         "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\layout_category_item.xml.flat",
@@ -468,6 +468,10 @@
         "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\drawable\\tr.png"
     },
     {
+        "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
         "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_video_item_back.xml.flat",
         "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\drawable\\video_item_back.xml"
     },
@@ -516,11 +520,11 @@
         "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\drawable\\coins.png"
     },
     {
-        "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
         "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\layout_loading_progress_dialog.xml.flat",
         "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\layout\\loading_progress_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\zeb\\MyAppCode\\CompleteQuizApp-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     }
 ]

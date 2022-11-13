@@ -75,7 +75,12 @@ public class MyWalletActivity extends AppCompatActivity implements MaxAdListener
             @Override
             public void onClick(View v) {
 //
-                finish();
+                if (interstitialAd.isReady()){
+                    interstitialAd.showAd();
+                    finish();
+                }else {
+                    finish();
+                }
 
             }
         });
@@ -176,7 +181,7 @@ public class MyWalletActivity extends AppCompatActivity implements MaxAdListener
                         if (!binding.amount.getText().toString().equals("")){
                             loadingDialog.show();
                             binding.requestButton.setEnabled(true);
-                            if(coins > 5000) {
+                            if(coins > 10000) {
                                 String uid = FirebaseAuth.getInstance().getUid();
                                 String mobil =   binding.withdrawMob.getText().toString();
                                // coinsAmount = Long.parseLong(binding.amount.getText().toString());
@@ -265,13 +270,13 @@ public class MyWalletActivity extends AppCompatActivity implements MaxAdListener
     @Override
     public void onBackPressed() {
 
-        finish();
-//        if (interstitialAd.isReady()){
-//            interstitialAd.showAd();
-//            finish();
-//        }else {
-//            finish();
-//        }
+      //  finish();
+        if (interstitialAd.isReady()){
+            interstitialAd.showAd();
+            finish();
+        }else {
+            finish();
+        }
     }
 
     @Override
